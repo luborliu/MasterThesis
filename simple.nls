@@ -1,0 +1,39 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$N_{\epsilon}(p)$}]\begingroup Eps-neighborhood of a point $p$\nomeqref {3.0}
+		\nompageref{21}
+  \item [{ADD}]\begingroup Absolute Division Distance\nomeqref {0}
+		\nompageref{viii}
+  \item [{AIS}]\begingroup Automaitc Identification System\nomeqref {0}
+		\nompageref{viii}
+  \item [{CDD}]\begingroup Cosine Division Distance\nomeqref {0}
+		\nompageref{viii}
+  \item [{COG}]\begingroup Course Over Ground\nomeqref {0}
+		\nompageref{viii}
+  \item [{DBSCAN}]\begingroup Density-Based Spatial Clustering of Applications with Noise\nomeqref {0}
+		\nompageref{viii}
+  \item [{DBSCANSD}]\begingroup Density-Based Spatial Clustering of Applications with Noise considering Speed and Direction\nomeqref {0}
+		\nompageref{viii}
+  \item [{EM}]\begingroup Expectation Maximization\nomeqref {2.0}
+		\nompageref{16}
+  \item [{GPS}]\begingroup Global Positioning System\nomeqref {0}
+		\nompageref{viii}
+  \item [{GV}]\begingroup Gravity Vector\nomeqref {0}\nompageref{viii}
+  \item [{IMO}]\begingroup Iternational Maritime Organization\nomeqref {0}
+		\nompageref{viii}
+  \item [{MMSI}]\begingroup Maritime Mobile Service Identity\nomeqref {1.0}
+		\nompageref{2}
+  \item [{RDD}]\begingroup Relative Division Distance\nomeqref {0}
+		\nompageref{viii}
+  \item [{SOG}]\begingroup Speed Over Ground\nomeqref {0}
+		\nompageref{viii}
+  \item [{SSP}]\begingroup Sampled Stopping Point\nomeqref {0}
+		\nompageref{viii}
+  \item [{TSS}]\begingroup Traffic Separation Scheme Boundaries\nomeqref {0}
+		\nompageref{viii}
+  \item [{UTC}]\begingroup Coordinated Universal Time\nomeqref {1.0}
+		\nompageref{2}
+
+\end{thenomenclature}

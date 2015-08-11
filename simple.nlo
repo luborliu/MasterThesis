@@ -1,0 +1,17 @@
+\nomenclatureentry{aSOG@[{SOG}]\begingroup Speed Over Ground\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aCOG@[{COG}]\begingroup Course Over Ground\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aGV@[{GV}]\begingroup Gravity Vector\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aSSP@[{SSP}]\begingroup Sampled Stopping Point\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aAIS@[{AIS}]\begingroup Automaitc Identification System\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aIMO@[{IMO}]\begingroup Iternational Maritime Organization\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aTSS@[{TSS}]\begingroup Traffic Separation Scheme Boundaries\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aGPS@[{GPS}]\begingroup Global Positioning System\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aDBSCAN@[{DBSCAN}]\begingroup Density-Based Spatial Clustering of Applications with Noise\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aDBSCANSD@[{DBSCANSD}]\begingroup Density-Based Spatial Clustering of Applications with Noise considering Speed and Direction\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aADD@[{ADD}]\begingroup Absolute Division Distance\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aRDD@[{RDD}]\begingroup Relative Division Distance\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aCDD@[{CDD}]\begingroup Cosine Division Distance\nomeqref {0}|nompageref}{viii}
+\nomenclatureentry{aMMSI@[{MMSI}]\begingroup Maritime Mobile Service Identity\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{aUTC@[{UTC}]\begingroup Coordinated Universal Time\nomeqref {1.0}|nompageref}{2}
+\nomenclatureentry{aEM@[{EM}]\begingroup Expectation Maximization\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{a$N_{\epsilon}(p)$@[{$N_{\epsilon}(p)$}]\begingroup Eps-neighborhood of a point $p$\nomeqref {3.0}|nompageref}{21}

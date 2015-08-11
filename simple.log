@@ -1,0 +1,1229 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  11 AUG 2015 11:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**simple.tex
+(./simple.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./dalcsthesis.cls
+Document Class: dalcsthesis 2005/02/24 v2.4 Dalhousie University thesis class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks14
+\AP@partial=\box26
+\AP@footins=\box27
+)
+\dal@textheight@default=\skip43
+\dal@textheight@footer=\skip44
+\dal@tempdima=\dimen103
+\dal@tempdimb=\dimen104
+
+(./glossary.sty
+Package: glossary 2004/11/02 2.12 (NLCT)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\gls@cols=\count88
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count89
+\LTcapwidth=\dimen105
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks16
+)
+\descriptionwidth=\skip49
+\istfile=\write3
+)
+\@glossaryfile=\write4
+\openout4 = `simple.glo'.
+
+
+Writing glossary file simple.glo 
+\dal@supervisornum=\count94
+\c@dal@signatures=\count95
+\c@dal@readernum=\count96
+)
+\c@definition=\count97
+\c@theorem=\count98
+\c@lemma=\count99
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count100
+\c@ALG@rem=\count101
+\c@ALG@nested=\count102
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count103
+\c@ALG@blocknr=\count104
+\c@ALG@storecount=\count105
+\c@ALG@tmpcounter=\count106
+\ALG@tmplength=\skip52
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./algorithm.sty
+Package: algorithm 
+
+Document Style `algorithm' - floating environment
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks17
+\float@box=\box32
+\@float@everytoks=\toks18
+\@floatcapt=\box33
+)
+\@float@every@algorithm=\toks19
+\c@algorithm=\count108
+) (./graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count109
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(./subfigure.sty
+Package: subfigure 1995/03/06 v2.0 subfigure package
+
+Package: subfigure 1995/03/06 v2.0
+\c@subfigure=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@lotdepth=\count113
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count114
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2013/01/08 v4420 L3 Experimental bootstrap code
+)
+Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count115
+)
+Package: expl3 2013/03/14 v4469 L3 Experimental code bundle wrapper
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2013/01/10 v4428 L3 Basic definitions
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2013/02/03 v4458 L3 Argument expansion
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/01/08 v4415 L3 Token lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/01/12 v4434 L3 Sequences and stacks
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/01/13 v4444 L3 Integers
+\c_max_int=\count116
+\l_tmpa_int=\count117
+\l_tmpb_int=\count118
+\g_tmpa_int=\count119
+\g_tmpb_int=\count120
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2012/11/04 v4268 L3 Quarks
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2013/02/13 v4459 L3 Control structures
+\g__prg_map_int=\count121
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/01/08 v4414 L3 Comma separated lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/01/10 v4428 L3 Experimental token manipulation
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/01/09 v4423 L3 Property lists
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/01/08 v4412 L3 Messages
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/01/14 v4446 L3 File and I/O operations
+\l_iow_line_count_int=\count122
+\l__iow_target_count_int=\count123
+\l__iow_current_line_int=\count124
+\l__iow_current_word_int=\count125
+\l__iow_current_indentation_int=\count126
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/01/13 v4444 L3 Dimensions and skips
+\c_zero_dim=\dimen108
+\c_max_dim=\dimen109
+\l_tmpa_dim=\dimen110
+\l_tmpb_dim=\dimen111
+\g_tmpa_dim=\dimen112
+\g_tmpb_dim=\dimen113
+\c_zero_skip=\skip53
+\c_max_skip=\skip54
+\l_tmpa_skip=\skip55
+\l_tmpb_skip=\skip56
+\g_tmpa_skip=\skip57
+\g_tmpb_skip=\skip58
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/02/24 v4461 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count127
+\l_keys_choice_int=\count128
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2013/01/19 v4449 L3 Floating points
+\c__fp_leading_shift_int=\count129
+\c__fp_middle_shift_int=\count130
+\c__fp_trailing_shift_int=\count131
+\c__fp_big_leading_shift_int=\count132
+\c__fp_big_middle_shift_int=\count133
+\c__fp_big_trailing_shift_int=\count134
+\c__fp_Bigg_leading_shift_int=\count135
+\c__fp_Bigg_middle_shift_int=\count136
+\c__fp_Bigg_trailing_shift_int=\count137
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/01/08 v4411 L3 Experimental boxes
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2012/09/09 v4212 L3 Coffin code layer
+\l__coffin_internal_box=\box39
+\l__coffin_internal_dim=\dimen114
+\l__coffin_offset_x_dim=\dimen115
+\l__coffin_offset_y_dim=\dimen116
+\l__coffin_x_dim=\dimen117
+\l__coffin_y_dim=\dimen118
+\l__coffin_x_prime_dim=\dimen119
+\l__coffin_y_prime_dim=\dimen120
+\c_empty_coffin=\box40
+\l__coffin_aligned_coffin=\box41
+\l__coffin_aligned_internal_coffin=\box42
+\l_tmpa_coffin=\box43
+\l_tmpb_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
+\l__coffin_display_offset_dim=\dimen121
+\l__coffin_display_x_dim=\dimen122
+\l__coffin_display_y_dim=\dimen123
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2012/08/03 v4049 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count138
+\g__cctab_stack_int=\count139
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2013/03/14 v4468 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen124
+\l__box_bottom_dim=\dimen125
+\l__box_left_dim=\dimen126
+\l__box_right_dim=\dimen127
+\l__box_top_new_dim=\dimen128
+\l__box_bottom_new_dim=\dimen129
+\l__box_left_new_dim=\dimen130
+\l__box_right_new_dim=\dimen131
+\l__box_internal_box=\box48
+\l__coffin_bounding_shift_dim=\dimen132
+\l__coffin_left_corner_dim=\dimen133
+\l__coffin_right_corner_dim=\dimen134
+\l__coffin_bottom_corner_dim=\dimen135
+\l__coffin_top_corner_dim=\dimen136
+\l__coffin_scaled_total_height_dim=\dimen137
+\l__coffin_scaled_width_dim=\dimen138
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/03/12 v4467 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count140
+\l__xparse_m_args_int=\count141
+\l__xparse_mandatory_args_int=\count142
+\l__xparse_processor_int=\count143
+\l__xparse_v_nesting_int=\count144
+)
+Package: siunitx 2013/03/11 v2.5q A comprehensive (SI) units package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen139
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen140
+\extrarowheight=\dimen141
+\NC@list=\toks21
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2013/03/12 v4467 LaTeX2e option processing using LaTeX3 keys
+)
+Variant \tl_if_blank:VTF already defined; not changing it on line 50
+\l__siunitx_tmp_box=\box49
+\l__siunitx_tmp_dim=\dimen142
+\l__siunitx_tmp_int=\count145
+Variant \prop_get:NVNT already defined; not changing it on line 371
+Variant \prop_get:NVNF already defined; not changing it on line 372
+Variant \prop_get:NVNTF already defined; not changing it on line 373
+\l__siunitx_number_mantissa_length_int=\count146
+\l__siunitx_number_uncert_length_int=\count147
+\l__siunitx_round_int=\count148
+\l__siunitx_process_decimal_int=\count149
+\l__siunitx_process_uncertainty_int=\count150
+\l__siunitx_process_fixed_int=\count151
+\l__siunitx_process_integer_min_int=\count152
+\l__siunitx_process_precision_int=\count153
+\l__siunitx_group_min_int=\count154
+\l__siunitx_angle_marker_box=\box50
+\l__siunitx_angle_unit_box=\box51
+\l__siunitx_angle_marker_dim=\dimen143
+\l__siunitx_angle_unit_dim=\dimen144
+\l__siunitx_unit_int=\count155
+\l__siunitx_unit_denominator_int=\count156
+\l__siunitx_unit_numerator_int=\count157
+\l__siunitx_unit_prefix_int=\count158
+\l__siunitx_unit_prefix_base_int=\count159
+\l__siunitx_unit_prefix_gram_int=\count160
+\l__siunitx_number_product_int=\count161
+\c__siunitx_one_fill_skip=\skip61
+\l__siunitx_table_unit_align_skip=\skip62
+\l__siunitx_table_exponent_dim=\dimen145
+\l__siunitx_table_integer_dim=\dimen146
+\l__siunitx_table_mantissa_dim=\dimen147
+\l__siunitx_table_marker_dim=\dimen148
+\l__siunitx_table_result_dim=\dimen149
+\l__siunitx_table_uncert_dim=\dimen150
+\l__siunitx_table_fill_pre_dim=\dimen151
+\l__siunitx_table_fill_post_dim=\dimen152
+\l__siunitx_table_fill_mid_dim=\dimen153
+\l__siunitx_table_pre_box=\box52
+\l__siunitx_table_post_box=\box53
+\l__siunitx_table_mantissa_box=\box54
+\l__siunitx_table_result_box=\box55
+\l__siunitx_table_number_align_skip=\skip63
+\l__siunitx_table_text_align_skip=\skip64
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareBinaryPrefix with arg. spec. 'mmm' on line
+. 7101.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPostPower with arg. spec. 'mm' on line
+. 7104.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrefix with arg. spec. 'mmm' on line
+. 7107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrePower with arg. spec. 'mm' on line
+. 7110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIQualifier with arg. spec. 'mm' on line
+. 7113.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnit with arg. spec. 'O{}mm' on line
+. 7116.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnitWithOptions with arg. spec. 'mmm' on
+. line 7119.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \ang with arg. spec. 'o>{\SplitArgument {2}{;}}m'
+. on line 7134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \num with arg. spec. 'om' on line 7142.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numlist with arg. spec. 'o>{\SplitList {;}}m' on
+. line 7150.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numrange with arg. spec. 'omm' on line 7158.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIlist with arg. spec. 'o>{\SplitList {;}}mm' on
+. line 7169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIrange with arg. spec. 'ommm' on line 7180.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SI with arg. spec. 'omom' on line 7191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \sisetup with arg. spec. 'm' on line 7194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \tablenum with arg. spec. 'om' on line 7206.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \si with arg. spec. 'om' on line 7217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_num:w with arg. spec. 'om' on
+. line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_numrange:w with arg. spec.
+. 'omm' on line 7264.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SI:w with arg. spec. 'omom' on
+. line 7266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SIlist:w with arg. spec. 'omm'
+. on line 7268.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SIrange:w with arg. spec.
+. 'ommm' on line 7270.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_si:w with arg. spec. 'om' on
+. line 7271.
+.................................................
+\g__file_internal_ior=\read1
+(/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count162
+\rotFPtop=\skip65
+\rotFPbot=\skip66
+\rot@float@box=\box56
+\rot@mess@toks=\toks24
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip67
+\enit@outerparindent=\dimen154
+\enit@toks=\toks25
+\enit@inbox=\box57
+\enitdp@description=\count163
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count164
+\lst@gtempboxa=\box58
+\lst@token=\toks26
+\lst@length=\count165
+\lst@currlwidth=\dimen155
+\lst@column=\count166
+\lst@pos=\count167
+\lst@lostspace=\dimen156
+\lst@width=\dimen157
+\lst@newlines=\count168
+\lst@lineno=\count169
+\lst@maxwidth=\dimen158
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count170
+\lst@skipnumbers=\count171
+\lst@framebox=\box59
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen159
+\nom@tempdim=\dimen160
+\nomitemsep=\skip68
+)
+\@nomenclaturefile=\write5
+\openout5 = `simple.nlo'.
+
+
+Writing nomenclature file simple.nlo
+(./simple.aux)
+\openout1 = `simple.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count172
+\scratchdimen=\dimen161
+\scratchbox=\box60
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen162
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviati
+ons.cfg
+File: siunitx-abbreviations.cfg 2013/03/11 v2.5q siunitx: Abbreviated units
+)
+\c@lstlisting=\count178
+\c__siunitx_mathsf_int=\count179
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 83.
+\c__siunitx_mathtt_int=\count180
+
+Unavoidable over/underfulls may occur in the first
+few pages of dalcsthesis. These can usually be ignored.
+However, if uncorrectable errors occur, notify staff.
+LaTeX Info: Redefining \\ on input line 103.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+ [1
+
+\openout3 = `simple.ist'.
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./simp
+le.toc [2
+
+
+])
+\tf@toc=\write6
+\openout6 = `simple.toc'.
+
+
+[3] (./simple.lot)
+\tf@lot=\write7
+\openout7 = `simple.lot'.
+
+ [4
+
+
+] (./simple.lof [5
+
+
+]
+Overfull \hbox (1.91583pt too wide) in paragraph at lines 26--26
+ [][] []\OT1/cmr/m/n/12 The Grav-ity Vec-tors (open cir-cles) and Sam-pled Stop
+-ping Points 
+ []
+
+)
+\tf@lof=\write8
+\openout8 = `simple.lof'.
+
+ [6]
+\ab@page=\count181
+ (./simple.nls [7
+
+
+]) [8
+
+] [9
+
+]
+Dalthesis preface pages completed.
+Chapter 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 176.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 176.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[][]\OT1/cmr/m/n/10 http://www.theglobeandmail.com/news/national/canadian-navy-
+officer-charged-with-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
+[2] <structure.png, id=45, 474.77374pt x 582.175pt>
+File: structure.png Graphic file (type png)
+ <use structure.png>
+Package pdftex.def Info: structure.png used on input line 217.
+(pdftex.def)             Requested size: 348.05981pt x 426.79134pt.
+
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./structure.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+[6] [7] [8]
+Chapter 2.
+[9
+
+]
+Underfull \vbox (badness 2591) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+[15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+[18]
+Chapter 3.
+
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [19
+
+]
+Overfull \hbox (15.98807pt too wide) in paragraph at lines 428--429
+\OT1/cmr/m/it/12 (($\OML/cmm/m/it/12 x[]; t[]$\OT1/cmr/m/it/12 ), ($\OML/cmm/m/
+it/12 x[]; t[]$\OT1/cmr/m/it/12 ), ... , ($\OML/cmm/m/it/12 x[]; t[]$\OT1/cmr/m
+/it/12 )) where $\OML/cmm/m/it/12 x[]$ \OT1/cmr/m/it/12 is a set of $\OML/cmm/m
+/it/12 < Latitude; Longitude; COG; SOG >$
+ []
+
+[20]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 449.
+ [21] [22] <relations.png, id=113, 286.06876pt x 318.18875pt>
+File: relations.png Graphic file (type png)
+
+<use relations.png>
+Package pdftex.def Info: relations.png used on input line 501.
+(pdftex.def)             Requested size: 216.81pt x 241.15593pt.
+ [23 <./relations.png>]
+Underfull \hbox (badness 5652) in paragraph at lines 562--563
+[]\OT1/cmr/bx/n/12 pro-ce-dure \OT1/cmr/m/sc/12 queryNeigh-bor-Points\OT1/cmr/m
+/n/12 ($\OML/cmm/m/it/12 data$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 P$\OT1/cmr/m/
+n/12 , $\OML/cmm/m/it/12 eps$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 MinPts$\OT1/cm
+r/m/n/12 , $\OML/cmm/m/it/12 MaxDir$\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+
+ []
+
+[24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
+
+ []
+
+[26] [27] <gravityCalculation.png, id=133, 1368.11125pt x 1062.97125pt>
+File: gravityCalculation.png Graphic file (type png)
+
+<use gravityCalculation.png>
+Package pdftex.def Info: gravityCalculation.png used on input line 652.
+(pdftex.def)             Requested size: 433.62pt x 336.89761pt.
+ [28 <./gravityCalculation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
+
+ []
+
+[29] [30] <borderValue.png, id=146, 645.41125pt x 335.2525pt>
+File: borderValue.png Graphic file (type png)
+
+<use borderValue.png>
+Package pdftex.def Info: borderValue.png used on input line 817.
+(pdftex.def)             Requested size: 397.48499pt x 206.46808pt.
+ [31] [32]
+<stopExample.png, id=153, 413.545pt x 318.18875pt>
+File: stopExample.png Graphic file (type png)
+ <use stopExample.png>
+Package pdftex.def Info: stopExample.png used on input line 827.
+(pdftex.def)             Requested size: 325.215pt x 250.23024pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./borderValue.png>] [34 <./stopExample.png>] [35]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+[36
+
+]
+Overfull \hbox (2.88274pt too wide) in paragraph at lines 882--889
+[]\OT1/cmr/m/n/12 For mov-ing tra-jec-tory points, we adopt RDD ($\OML/cmm/m/it
+/12 D[]$\OT1/cmr/m/n/12 ) rather than ADD ($\OML/cmm/m/it/12 D[]$\OT1/cmr/m/n/1
+2 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 882--889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+
+ []
+
+[37] <abnormalSpeedDirection.png, id=172, 860.21375pt x 261.97874pt>
+File: abnormalSpeedDirection.png Graphic file (type png)
+
+<use abnormalSpeedDirection.png>
+Package pdftex.def Info: abnormalSpeedDirection.png used on input line 926.
+(pdftex.def)             Requested size: 398.3414pt x 142.2659pt.
+
+<cosine.png, id=173, 479.7925pt x 239.89626pt>
+File: cosine.png Graphic file (type png)
+ <use cosine.png>
+Package pdftex.def Info: cosine.png used on input line 940.
+(pdftex.def)             Requested size: 227.62204pt x 113.81279pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./abnormalSpeedDirection.png>] <hist.png, id=178, 536.0025pt x 501.875pt>
+File: hist.png Graphic file (type png)
+
+<use hist.png>
+Package pdftex.def Info: hist.png used on input line 994.
+(pdftex.def)             Requested size: 256.0748pt x 239.76387pt.
+ <cdf.png, id=179, 536.0025pt x 501.875pt>
+File: cdf.png Graphic file (type png)
+ <use cdf.png>
+Package pdftex.def Info: cdf.png used on input line 1001.
+(pdftex.def)             Requested size: 256.0748pt x 239.76387pt.
+ [39 <./cosine.png>] [40] [41 <./hist.png> <./cdf.png>] [42]
+Chapter 5.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<jdfk_pic.png, id=197, 944.52875pt x 600.2425pt>
+File: jdfk_pic.png Graphic file (type png)
+ <use jdfk_pic.png>
+Package pdftex.def Info: jdfk_pic.png used on input line 1030.
+(pdftex.def)             Requested size: 354.12535pt x 245.71634pt.
+ [43
+
+]
+<clusterResultJDFK.png, id=201, 2241.37375pt x 1839.87375pt>
+File: clusterResultJDFK.png Graphic file (type png)
+
+<use clusterResultJDFK.png>
+Package pdftex.def Info: clusterResultJDFK.png used on input line 1042.
+(pdftex.def)             Requested size: 361.34999pt x 296.60367pt.
+ <clusterGV.jpg, id=202, 537.9297pt x 441.5697pt>
+File: clusterGV.jpg Graphic file (type jpg)
+
+<use clusterGV.jpg>
+Package pdftex.def Info: clusterGV.jpg used on input line 1052.
+(pdftex.def)             Requested size: 361.34999pt x 296.63174pt.
+ <la_pic.png, id=203, 934.49126pt x 637.38126pt>
+File: la_pic.png Graphic file (type png)
+
+<use la_pic.png>
+Package pdftex.def Info: la_pic.png used on input line 1065.
+(pdftex.def)             Requested size: 332.44243pt x 226.74362pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./jdfk_pic.png>] <LAStopOriginal.jpg, id=207, 376.2858pt x 602.25pt>
+File: LAStopOriginal.jpg Graphic file (type jpg)
+
+<use LAStopOriginal.jpg>
+Package pdftex.def Info: LAStopOriginal.jpg used on input line 1076.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
+ <LAnormalStop1.jpg, id=208, 376.2858pt x 602.25pt>
+File: LAnormalStop1.jpg Graphic file (type jpg)
+
+<use LAnormalStop1.jpg>
+Package pdftex.def Info: LAnormalStop1.jpg used on input line 1077.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
+ <LAnormalStop2.jpg, id=209, 376.2858pt x 602.25pt>
+File: LAnormalStop2.jpg Graphic file (type jpg)
+
+<use LAnormalStop2.jpg>
+Package pdftex.def Info: LAnormalStop2.jpg used on input line 1078.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
+ <LAmoveOrig.png, id=210, 2601.72pt x 2195.20125pt>
+File: LAmoveOrig.png Graphic file (type png)
+
+<use LAmoveOrig.png>
+Package pdftex.def Info: LAmoveOrig.png used on input line 1099.
+(pdftex.def)             Requested size: 361.34999pt x 304.88087pt.
+ <LAclustersGV.jpg, id=211, 624.4128pt x 526.8483pt>
+File: LAclustersGV.jpg Graphic file (type jpg)
+
+<use LAclustersGV.jpg>
+Package pdftex.def Info: LAclustersGV.jpg used on input line 1106.
+(pdftex.def)             Requested size: 361.34999pt x 304.8889pt.
+ [45 <./clusterResultJDFK.png>]
+
+LaTeX Warning: Text page 46 contains only floats.
+
+[46 <./clusterGV.jpg> <./la_pic.png>] [47 <./LAStopOriginal.jpg> <./LAnormalSto
+p1.jpg> <./LAnormalStop2.jpg>] [48 <./LAmoveOrig.png>] [49 <./LAclustersGV.jpg>
+] <jdfk_clusters_new.jpg, id=230, 451.6875pt x 414.5889pt>
+File: jdfk_clusters_new.jpg Graphic file (type jpg)
+
+<use jdfk_clusters_new.jpg>
+Package pdftex.def Info: jdfk_clusters_new.jpg used on input line 1140.
+(pdftex.def)             Requested size: 361.37115pt x 296.32126pt.
+ [50 <./jdfk_clusters_new.jpg>]
+<labelJDFK.png, id=234, 602.25pt x 501.875pt>
+File: labelJDFK.png Graphic file (type png)
+ <use labelJDFK.png>
+Package pdftex.def Info: labelJDFK.png used on input line 1211.
+(pdftex.def)             Requested size: 361.34999pt x 301.13498pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+<p1.png, id=238, 501.875pt x 401.5pt>
+File: p1.png Graphic file (type png)
+ <use p1.png>
+Package pdftex.def Info: p1.png used on input line 1233.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+<p2.png, id=239, 501.875pt x 401.5pt>
+File: p2.png Graphic file (type png)
+ <use p2.png>
+Package pdftex.def Info: p2.png used on input line 1241.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+<p3.png, id=240, 501.875pt x 401.5pt>
+File: p3.png Graphic file (type png)
+ <use p3.png>
+Package pdftex.def Info: p3.png used on input line 1249.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+<p4.png, id=241, 501.875pt x 401.5pt>
+File: p4.png Graphic file (type png)
+ <use p4.png>
+Package pdftex.def Info: p4.png used on input line 1256.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+<p5.png, id=242, 501.875pt x 401.5pt>
+File: p5.png Graphic file (type png)
+ <use p5.png>
+Package pdftex.def Info: p5.png used on input line 1263.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+<p6.png, id=243, 501.875pt x 401.5pt>
+File: p6.png Graphic file (type png)
+ <use p6.png>
+Package pdftex.def Info: p6.png used on input line 1271.
+(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+
+Underfull \vbox (badness 3872) has occurred while \output is active []
+
+ [52 <./labelJDFK.png>] [53 <./p1.png> <./p2.png>] [54 <./p3.png> <./p4.png>] [
+55 <./p5.png> <./p6.png>]
+Underfull \vbox (badness 1997) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 3240) has occurred while \output is active []
+
+ [57]
+[58]
+Chapter 6.
+
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [59
+
+]
+[60] <limitation3.png, id=280, 409.53pt x 417.56pt>
+File: limitation3.png Graphic file (type png)
+ <use limitation3.png>
+Package pdftex.def Info: limitation3.png used on input line 1435.
+(pdftex.def)             Requested size: 289.09987pt x 252.94632pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+(./simple.bbl [62 <./limitation3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmtt/m/n/12 / / www . imo . org / blast / blastDataHelper . asp ? data _ i
+d = 14761&filename = 57 .
+ []
+
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+[63
+
+
+]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+ [64] [65]
+Missing character: There is no √ in font cmti12!
+Missing character: There is no ñ in font cmti12!
+ [66] [67]) [68]
+Appendix A.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(./code/TrajectoryPoint.java
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+) [69
+
+] (./code/Cluster.java
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 2.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+)
+(./code/DBScanSD.java [70]
+Overfull \hbox (10.3845pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.38445pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (22.38463pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+Overfull \hbox (16.38457pt too wide) in paragraph at lines 62--63
+[][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73])
+(./code/GravityVector.java [74]) (./code/MappingPoint.java [75])
+(./code/GravityVectorExtraction.java [76]
+Overfull \hbox (6.38426pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Overfull \hbox (10.3845pt too wide) in paragraph at lines 76--77
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78])
+[79] (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(./code/SSPExtraction.R
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80])
+[81]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ (./code/anomalyDetection.R [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Overfull \hbox (4.38445pt too wide) in paragraph at lines 234--235
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+]  
+ []
+
+) [90] (./simple.aux) ) 
+Here is how much of TeX's memory you used:
+ 14333 strings out of 493315
+ 284077 string characters out of 6137904
+ 474866 words of memory out of 5000000
+ 17517 multiletter control sequences out of 15000+600000
+ 11109 words of font info for 41 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 38i,13n,44p,1762b,2195s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b>
+Output written on simple.pdf (99 pages, 3436319 bytes).
+PDF statistics:
+ 427 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+

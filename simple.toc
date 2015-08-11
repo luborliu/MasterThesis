@@ -1,0 +1,65 @@
+\baselineskip =0.7\baselineskip 
+\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{Abstract}{vii}
+\contentsline {chapter}{List of Abbreviation and Symbols Used}{viii}
+\contentsline {chapter}{Acknowledgements}{ix}
+\contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {1.1}Aim and Objectives}{3}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {1.2}Research Methodology}{3}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {1.3}Scientific Contribution}{6}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {1.4}Publications}{6}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {1.5}Thesis Outline}{7}
+\contentsline {chapter}{\numberline {Chapter 2}Related Work}{9}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {2.1}Trajectory Clustering And Maritime Traffic Clustering}{9}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {2.2}Anomaly Detection in Maritime Surveillance}{15}
+\contentsline {chapter}{\numberline {Chapter 3}Normal Traffic Patterns Extraction Model}{19}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {3.1}Representing Trajectory Data}{20}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {3.2}Normal Moving Trajectories Extraction}{20}
+\contentsline {subsection}{\numberline {3.2.1}Density-Based Spatial Clustering of Applications with Noise considering Speed and Direction}{21}
+\contentsline {subsection}{\numberline {3.2.2}Gravity Vector}{27}
+\contentsline {paragraph}{Proof.}{30}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {3.3}Normal Stopping Areas Extraction}{31}
+\contentsline {chapter}{\numberline {Chapter 4}Anomaly Detection}{36}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {4.1}Three Division Distances}{36}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {4.2}Anomaly Detection Model}{39}
+\contentsline {chapter}{\numberline {Chapter 5}Evaluation}{43}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {5.1}Normal Traffic Patterns Extraction Model}{43}
+\contentsline {subsection}{\numberline {5.1.1}Juan de Fuca Strait}{43}
+\contentsline {subsection}{\numberline {5.1.2}Los Angeles Long Beach}{45}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {5.2}Anomaly Detection Model}{48}
+\contentsline {subsection}{\numberline {5.2.1}Experiment On Unlabeled Data Set}{50}
+\contentsline {subsection}{\numberline {5.2.2}Experiment On Labeled Data Set}{52}
+\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{59}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {6.1}Future Work}{60}
+\contentsline {chapter}{Bibliography}{63}
+\contentsline {chapter}{\numberline {Appendix A}Source Code of the Algorithms}{69}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {A.1}Source Code of Normal Traffic Patterns Extraction Model}{69}
+\contentsline {subsection}{\numberline {A.1.1}Code of Clustering Process}{70}
+\contentsline {subsection}{\numberline {A.1.2}GVs Calculation}{74}
+\contentsline {subsection}{\numberline {A.1.3}SSPs Calculation}{79}
+\addvspace {10\p@ }
+\contentsline {section}{\numberline {A.2}Source Code of Anomaly Detection Model}{81}

@@ -1,0 +1,379 @@
+\begin{thebibliography}{10}
+
+\bibitem{tss}
+Colreg.2/circ.57 new and amended existing traffic separation schemes.
+\newblock
+  \url{http://www.imo.org/blast/blastDataHelper.asp?data_id=14761&filename=57.pdf}.
+\newblock Accessed: 2006-05-26.
+
+\bibitem{IALA}
+{\em IALA Guidelines on the Universal Automatic Identification System (AIS),
+  Volume 1, Part II-Technical Issues Edition 1.1}.
+\newblock IALA/AISM-20ter rue Schnapper, 78100 Saint Germain en Laye, France,
+  2002.
+
+\bibitem{aggarwal2013data}
+Charu~C Aggarwal and Chandan~K Reddy.
+\newblock {\em Data Clustering: Algorithms and Applications}.
+\newblock CRC Press, 2013.
+
+\bibitem{Candide}
+Jörgen Ahlberg.
+\newblock Candide-3 - an updated parameterised face.
+\newblock Technical report, 2001.
+
+\bibitem{optics}
+Mihael Ankerst, Markus~M Breunig, Hans-Peter Kriegel, and J{\"o}rg Sander.
+\newblock Optics: ordering points to identify the clustering structure.
+\newblock In {\em ACM Sigmod Record}, volume~28, pages 49--60. ACM, 1999.
+
+\bibitem{AISdummies}
+Heather Ball.
+\newblock {\em Satellite AIS for Dummies}.
+\newblock Wiley, Mississauga, ON, 2013.
+
+\bibitem{Soleimani}
+Casey~Hilliard Behrouz Haji~Soleimani, Erico N. De~Souza and Stan Matwin.
+\newblock Anomaly detection in maritime data based on geometrical analysis of
+  trajectories.
+\newblock In {\em Information Fusion, 2015 18th International Conference on}.
+  IEEE, 2015.
+
+\bibitem{blum:linearSelection-jcss73}
+Manuel Blum, Robert~W. Floyd, Vaughan Pratt, Ronald~L. Rivest, and Robert~E.
+  Tarjan.
+\newblock Time bounds for selection.
+\newblock {\em J. Comput. Syst. Sci.}, 7(4):448--461, August 1973.
+
+\bibitem{juandefuca}
+United States. Defense Mapping Agency.~Hydrographic/Topographic Center.
+\newblock {\em Sailing Directions (enroute) British Columbia}.
+\newblock Pub. (United States. Defense Mapping Agency. Hydrographic/Topographic
+  Center). Defense Mapping Agency, Hydrographic/Topographic Center, 2012.
+
+\bibitem{chandola}
+Varun Chandola, Arindam Banerjee, and Vipin Kumar.
+\newblock Anomaly detection: A survey.
+\newblock {\em ACM Computing Surveys (CSUR)}, 41(3):15, 2009.
+
+\bibitem{svm}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{spline}
+Anders Dahlbom and Lars Niklasson.
+\newblock Trajectory clustering for coastal surveillance.
+\newblock In {\em Information Fusion, 2007 10th International Conference on},
+  pages 1--8. IEEE, 2007.
+
+\bibitem{Gerben}
+Gerben Klaas~Dirk De~Vries and Maarten Van~Someren.
+\newblock Machine learning for vessel trajectories using compression,
+  alignments and domain knowledge.
+\newblock {\em Expert Systems with Applications}, 39(18):13426--13439, 2012.
+
+\bibitem{astar}
+Rina Dechter and Judea Pearl.
+\newblock Generalized best-first search strategies and the optimality of a*.
+\newblock {\em J. ACM}, 32(3):505--536, July 1985.
+
+\bibitem{DBScan96}
+Martin Ester, Hans peter Kriegel, Jörg S, and Xiaowei Xu.
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock pages 226--231. AAAI Press, 1996.
+
+\bibitem{Etienne12}
+Laurent Etienne and Thomas Devogele.
+\newblock Spatio-temporal trajectory analysis of mobile objects following the
+  same itinerary.
+\newblock {\em Advances in Geo-Spatial Information Science}, 17(1):11--34,
+  2012.
+
+\bibitem{vfkm}
+Nivan Ferreira, James~T. Klosowski, Carlos~Eduardo Scheidegger, and
+  Cl{\'{a}}udio~T. Silva.
+\newblock Vector field k-means: Clustering trajectories by fitting multiple
+  vector fields.
+\newblock {\em CoRR}, abs/1208.5801, 2012.
+
+\bibitem{vehicle_clustering}
+Zhouyu Fu, Weiming Hu, and Tieniu Tan.
+\newblock Similarity based vehicle trajectory clustering and anomaly detection.
+\newblock In {\em Image Processing, 2005. ICIP 2005. IEEE International
+  Conference on}, volume~2, pages II--602. IEEE, 2005.
+
+\bibitem{airspaceMonitoring}
+Maxime Gariel, Ashok~N Srivastava, and Eric Feron.
+\newblock Trajectory clustering and an application to airspace monitoring.
+\newblock {\em Intelligent Transportation Systems, IEEE Transactions on},
+  12(4):1511--1524, 2011.
+
+\bibitem{hanjiaweibook}
+Jiawei Han.
+\newblock {\em Data Mining: Concepts and Techniques}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2005.
+
+\bibitem{AISHarati}
+Abbas Harati-Mokhtari, Alan Wall, Philip Brooks, and Jin Wang.
+\newblock Automatic identification system (ais): data reliability and human
+  error implications.
+\newblock {\em Journal of navigation}, 60(03):373--389, 2007.
+
+\bibitem{denclue}
+Alexander Hinneburg and Daniel~A Keim.
+\newblock An efficient approach to clustering in large multimedia databases
+  with noise.
+\newblock In {\em KDD}, volume~98, pages 58--65, 1998.
+
+\bibitem{hoare:partition-cacm62}
+C.~A.~R. Hoare.
+\newblock Algorithm 63: Partition.
+\newblock {\em Commun. ACM}, 4(7):321--, July 1961.
+
+\bibitem{anabook}
+IMO.
+\newblock {\em Ships' Routeing}.
+\newblock International Maritime Organization, 2013.
+
+\bibitem{kmedoids}
+Leonard Kaufman and Peter Rousseeuw.
+\newblock {\em Clustering by means of medoids}.
+\newblock North-Holland, 1987.
+
+\bibitem{masterthesis}
+Samira Kazemi, Shahrooz Abghari, Niklas Lavesson, Henric Johnson, and Peter
+  Ryman.
+\newblock Open data for anomaly detection in maritime surveillance.
+\newblock {\em Expert Systems with Applications}, 40(14):5719--5729, 2013.
+
+\bibitem{dtw}
+Eamonn~J Keogh and Michael~J Pazzani.
+\newblock Scaling up dynamic time warping for datamining applications.
+\newblock In {\em Proceedings of the sixth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 285--289. ACM, 2000.
+
+\bibitem{bn_Richard}
+Richard~O Lane, David~A Nevell, Steven~D Hayward, and Thomas~W Beaney.
+\newblock Maritime anomaly detection and threat assessment.
+\newblock In {\em Information Fusion (FUSION), 2010 13th Conference on}, pages
+  1--8. IEEE, 2010.
+
+\bibitem{gmm}
+Rikard Laxhammar.
+\newblock Anomaly detection for sea surveillance.
+\newblock In {\em Information Fusion, 2008 11th International Conference on},
+  pages 1--8. IEEE, 2008.
+
+\bibitem{comparison}
+Rikard Laxhammar, G{\"o}ran Falkman, and Egils Sviestins.
+\newblock Anomaly detection in sea traffic-a comparison of the gaussian mixture
+  model and the kernel density estimator.
+\newblock In {\em Information Fusion, 2009. FUSION'09. 12th International
+  Conference on}, pages 756--763. IEEE, 2009.
+
+\bibitem{Nicolas}
+Nicolas Le~Guillarme and Xavier Lerouvreur.
+\newblock Unsupervised extraction of knowledge from s-ais data for maritime
+  situational awareness.
+\newblock In {\em Information Fusion (FUSION), 2013 16th International
+  Conference on}, pages 2025--2032. IEEE, 2013.
+
+\bibitem{Lee07}
+Jae-Gil Lee, Jiawei Han, and Kyu-Young Whang.
+\newblock Trajectory clustering: A partition-and-group framework.
+\newblock In {\em Proceedings of the 2007 ACM SIGMOD Inter. Conf. on Management
+  of Data}, SIGMOD '07, pages 593--604, 2007.
+
+\bibitem{cyber}
+Kingsly Leung and Christopher Leckie.
+\newblock Unsupervised anomaly detection in network intrusion detection using
+  clusters.
+\newblock In {\em Proceedings of the Twenty-eighth Australasian conference on
+  Computer Science-Volume 38}, pages 333--342. Australian Computer Society,
+  Inc., 2005.
+
+\bibitem{healthcare}
+Jing Li, Kuei-Ying Huang, Jionghua Jin, and Jianjun Shi.
+\newblock A survey on statistical methods for health care fraud detection.
+\newblock {\em Health care management science}, 11(3):275--287, 2008.
+
+\bibitem{bigdata2014}
+Bo~Liu, Erico~N de~Souza, Stan Matwin, and Marcin Sydow.
+\newblock Knowledge-based clustering of ship trajectories using density-based
+  approach.
+\newblock In {\em Big Data (Big Data), 2014 IEEE International Conference on},
+  pages 603--608. IEEE, 2014.
+
+\bibitem{visionsurvey}
+Brendan~Tran Morris and Mohan~M. Trivedi.
+\newblock A survey of vision-based trajectory learning and analysis for
+  surveillance.
+\newblock {\em IEEE Trans. Circuits Syst. Video Techn.}, (8):1114--1127.
+
+\bibitem{edit_distance}
+Gonzalo Navarro.
+\newblock A guided tour to approximate string matching.
+\newblock {\em ACM computing surveys (CSUR)}, 33(1):31--88, 2001.
+
+\bibitem{bn_White}
+David Nevell.
+\newblock Anomaly detection in white shipping.
+\newblock {\em Mathematics in Defence}, 2009.
+
+\bibitem{pallotta13}
+Giuliana Pallotta, Michele Vespe, and Karna Bryan.
+\newblock Traffic knowledge discovery from ais data.
+\newblock In {\em Information Fusion (FUSION), 2013 16th International
+  Conference on}, pages 1996--2003. IEEE, 2013.
+
+\bibitem{PallottaFramework}
+Giuliana Pallotta, Michele Vespe, and Karna Bryan.
+\newblock Vessel pattern knowledge discovery from ais data: A framework for
+  anomaly detection and route prediction.
+\newblock {\em Entropy}, 15(6):2218--2245, 2013.
+
+\bibitem{CBSMoT}
+Andrey~Tietbohl Palma, Vania Bogorny, Bart Kuijpers, and Luis~Otavio Alvares.
+\newblock A clustering-based approach for discovering interesting places in
+  trajectories.
+\newblock In {\em Proceedings of the 2008 ACM Symposium on Applied Computing},
+  SAC '08, pages 863--868, New York, NY, USA, 2008. ACM.
+
+\bibitem{videosurveillance1}
+Claudio Piciarelli, Gian~Luca Foresti, and Lauro Snidaro.
+\newblock Trajectory clustering and its applications for video surveillance.
+\newblock In {\em Advanced Video and Signal Based Surveillance, 2005. AVSS
+  2005. IEEE Conference on}, pages 40--45. IEEE, 2005.
+
+\bibitem{phdthesis}
+Laxhammar Rikard.
+\newblock Anomaly detection in trajectory data for surveillance applications.
+\newblock {\em Studies from the school of science and technology at Örebro
+  university 19}, 2011.
+
+\bibitem{kde}
+Branko Ristic, Barbara La~Scala, Mark Morelande, and Neil Gordon.
+\newblock Statistical analysis of motion patterns in ais data: Anomaly
+  detection and motion prediction.
+\newblock In {\em Information Fusion, 2008 11th International Conference on},
+  pages 1--7. IEEE, 2008.
+
+\bibitem{DDBscan}
+Jose Antonio~MR Rocha, Gabriel Oliveira, Luis~O Alvares, Vania Bogorny, and
+  VC~Times.
+\newblock Db-smot: a direction-based spatio-temporal clustering method.
+\newblock In {\em Intelligent systems (IS), 2010 5th IEEE international
+  conference}, pages 114--119. IEEE, 2010.
+
+\bibitem{kmeans}
+Peter~J Rousseeuw.
+\newblock Silhouettes: a graphical aid to the interpretation and validation of
+  cluster analysis.
+\newblock {\em Journal of computational and applied mathematics}, 20:53--65,
+  1987.
+
+\bibitem{rousseeuw2005}
+Peter~J Rousseeuw and Annick~M Leroy.
+\newblock {\em Robust regression and outlier detection}, volume 589.
+\newblock John Wiley \& Sons, 2005.
+
+\bibitem{roy2010rule}
+Jean Roy.
+\newblock Rule-based expert system for maritime anomaly detection.
+\newblock In {\em SPIE Defense, Security, and Sensing}, pages 76662N--76662N.
+  International Society for Optics and Photonics, 2010.
+
+\bibitem{roy2009categorization}
+Jean Roy and Michael Davenport.
+\newblock Categorization of maritime anomalies for notification and alerting
+  purpose.
+\newblock In {\em NATO workshop on data fusion and anomaly detection for
+  maritime situational awareness, La Spezia, Italy}, pages 15--17, 2009.
+
+\bibitem{videosurveillance2}
+Lauro Snidaro, Claudio Piciarelli, and Gian~Luca Foresti.
+\newblock Fusion of trajectory clusters for situation assessment.
+\newblock In {\em Information Fusion, 2006 9th International Conference on},
+  pages 1--7. IEEE, 2006.
+
+\bibitem{stopmove}
+Stefano Spaccapietra, Christine Parent, Maria~Luisa Damiani, Jose~Antonio
+  de~Macedo, Fabio Porto, and Christelle Vangenot.
+\newblock A conceptual view on trajectories.
+\newblock {\em Data Knowl. Eng.}, 65(1):126--146, April 2008.
+
+\bibitem{creditcard}
+Abhinav Srivastava, Amlan Kundu, Shamik Sural, and Arun~K Majumdar.
+\newblock Credit card fraud detection using hidden markov model.
+\newblock {\em Dependable and Secure Computing, IEEE Transactions on},
+  5(1):37--48, 2008.
+
+\bibitem{videosurveillance3}
+Chris Stauffer and W~Eric~L Grimson.
+\newblock Learning patterns of activity using real-time tracking.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 22(8):747--757, 2000.
+
+\bibitem{PangNing05}
+Pang-Ning Tan, Michael Steinbach, and Vipin Kumar.
+\newblock {\em Introduction to Data Mining, (First Edition)}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2005.
+
+\bibitem{teng1990adaptive}
+Henry~S Teng, Kaihu Chen, and SC~Lu.
+\newblock Adaptive real-time anomaly detection using inductively generated
+  sequential patterns.
+\newblock In {\em Research in Security and Privacy, 1990. Proceedings., 1990
+  IEEE Computer Society Symposium on}, pages 278--284. IEEE, 1990.
+
+\bibitem{gpsDistance}
+Chris Veness.
+\newblock Calculate distance, bearing and more between latitude/longitude
+  points.
+
+\bibitem{vespe12}
+Michele Vespe, Ingrid Visentini, Karna Bryan, and Paolo Braca.
+\newblock Unsupervised learning of maritime traffic patterns for anomaly
+  detection.
+\newblock In {\em Data Fusion \& Target Tracking Conf. (DF\&TT 2012):
+  Algorithms \& Applications, 9th IET}, pages 1--5. IET, 2012.
+
+\bibitem{insurance}
+Stijn Viaene, Richard~A Derrig, Bart Baesens, and Guido Dedene.
+\newblock A comparison of state-of-the-art classification techniques for expert
+  automobile insurance claim fraud detection.
+\newblock {\em Journal of Risk and Insurance}, 69(3):373--421, 2002.
+
+\bibitem{lcss}
+Michail Vlachos, George Kollios, and Dimitrios Gunopulos.
+\newblock Discovering similar multidimensional trajectories.
+\newblock In {\em Data Engineering, 2002. Proceedings. 18th International
+  Conference on}, pages 673--684. IEEE, 2002.
+
+\bibitem{sting}
+Wei Wang, Jiong Yang, Richard Muntz, et~al.
+\newblock Sting: A statistical information grid approach to spatial data
+  mining.
+\newblock In {\em VLDB}, volume~97, pages 186--195, 1997.
+
+\bibitem{clique}
+Mohammed~Javeed Zaki, Srinivasan Parthasarathy, Mitsunori Ogihara, Wei Li,
+  et~al.
+\newblock New algorithms for fast discovery of association rules.
+\newblock In {\em KDD}, volume~97, pages 283--286, 1997.
+
+\bibitem{birch}
+Tian Zhang, Raghu Ramakrishnan, and Miron Livny.
+\newblock Birch: an efficient data clustering method for very large databases.
+\newblock In {\em ACM SIGMOD Record}, volume~25, pages 103--114. ACM, 1996.
+
+\bibitem{comparison_distances}
+Zhang Zhang, Kaiqi Huang, and Tieniu Tan.
+\newblock Comparison of similarity measures for trajectory clustering in
+  outdoor surveillance scenes.
+\newblock In {\em Pattern Recognition, 2006. ICPR 2006. 18th International
+  Conference on}, volume~3, pages 1135--1138. IEEE, 2006.
+
+\end{thebibliography}

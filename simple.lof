@@ -1,0 +1,36 @@
+\baselineskip =0.7\baselineskip 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 1.1}{\ignorespaces The framework for Maritime Anomaly Detection. This can be roughly regarded as a two-step procedure. First, the normal traffic extraction model extracts the normal traffic patterns from the historical AIS data repository. Then the extracted Gravity Vectors (GVs) and Sampled Stopping Points (SSPs) are employed by the anomaly detection model to decide the abnormality of the new given trajectory.}}{4}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 3.1}{\ignorespaces Three defined relations for the density-based clustering algorithm.}}{23}
+\contentsline {figure}{\numberline {Figure 3.2}{\ignorespaces Calculate Gravity Vectors (GV) for one moving cluster. Blue arrows stand for the trajectory points of the cluster, red arrows are the final Gravity Vectors. The length ($L$) of the GV is the $SOG_{avg}$ of the GV. The width of a grid $g$ is the pre-defined length for partitioning the points.}}{28}
+\contentsline {figure}{\numberline {Figure 3.3}{\ignorespaces Border Values of a stopping cluster}}{33}
+\contentsline {figure}{\numberline {Figure 3.4}{\ignorespaces An example of a stopping area that simply random sampling cannot work. There are three regions (A,B and C) with higher density than the whole area's average density.}}{34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 4.1}{\ignorespaces Two Abnormal Cases after considering COG and SOG}}{38}
+\contentsline {figure}{\numberline {Figure 4.2}{\ignorespaces One case that the simple combination of the two division distances cannot work. There are two moving clusters in one specific area and the two clusters are with two different average COGs. }}{39}
+\contentsline {figure}{\numberline {Figure 4.3}{\ignorespaces The maximum CDD distribution in the area of Juan de Fuca Strait.}}{41}
+\contentsline {figure}{\numberline {Figure 4.4}{\ignorespaces The Cumulative Distribution Function of the maximum CDD in the area of Juan de Fuca Strait.}}{41}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 5.1}{\ignorespaces Juan de Fuca Strait and its approaches (west) \cite {anabook} }}{44}
+\contentsline {figure}{\numberline {Figure 5.2}{\ignorespaces The clustering results of JUAN DE FUCA STRAIT area. Different colors stand for different clusters. The clusters in dark green is stopping clusters.}}{45}
+\contentsline {figure}{\numberline {Figure 5.3}{\ignorespaces The Gravity Vectors and Sampled Stopping Points extracted from the clusters in Juan de Fuca Strait area.}}{46}
+\contentsline {figure}{\numberline {Figure 5.4}{\ignorespaces Map of Los Angeles Long Beach and the rules defined \cite {anabook}}}{46}
+\contentsline {figure}{\numberline {Figure 5.5}{\ignorespaces Extract Stopping Sampling Points (SSP) from stopping clusters in Los Angeles Port Area. The stopping clusters are first extracted using DBSCAN \cite {DBScan96} algorithm shown in (a) and different colors stand for different clusters. Then Algorithm 2\hbox {} is used for getting the SSPs (shown in figures (b) and (c))}}{47}
+\contentsline {subfigure}{\string \numberline {5.5(a)}{\ignorespaces Stopping clusters by DBSCAN \string \cite {DBScan96} }}{47}
+\contentsline {subfigure}{\string \numberline {5.5(b)}{\ignorespaces Sampled Stopping Points generating}}{47}
+\contentsline {subfigure}{\string \numberline {5.5(c)}{\ignorespaces Sampled Stopping Points generated}}{47}
+\contentsline {figure}{\numberline {Figure 5.6}{\ignorespaces The clustering results of Los Angeles Long Beach area. This only shows the moving points(in blue) and the corresponding moving clusters (in different colors).}}{48}
+\contentsline {figure}{\numberline {Figure 5.7}{\ignorespaces The Gravity Vectors and Sampled Stopping Points extracted from the clusters in Los Angeles Long Beach area. }}{49}
+\contentsline {figure}{\numberline {Figure 5.8}{\ignorespaces The Gravity Vectors (open circles) and Sampled Stopping Points (filled circles) extracted from the clusters in JUAN DE FUCA STRAIT area.}}{50}
+\contentsline {figure}{\numberline {Figure 5.9}{\ignorespaces The anomaly labeling results of the trajectory data points in JUAN DE FUCA STRAIT area. GVs and SSPs are in red and the normal points are in green. The two types of abnormal points are in blue (abnormal in relation to ADD or RDD) and purple (abnormal in relation to CDD).}}{52}
+\contentsline {figure}{\numberline {Figure 5.10}{\ignorespaces First example of the abnormal trajectories detected by our framework.}}{53}
+\contentsline {figure}{\numberline {Figure 5.11}{\ignorespaces Second example of the abnormal trajectories detected by our framework.}}{53}
+\contentsline {figure}{\numberline {Figure 5.12}{\ignorespaces Third example of the abnormal trajectories detected by our framework.}}{54}
+\contentsline {figure}{\numberline {Figure 5.13}{\ignorespaces Fourth example of the abnormal trajectories detected by our framework.}}{54}
+\contentsline {figure}{\numberline {Figure 5.14}{\ignorespaces Fifth example of the abnormal trajectories detected by our framework.}}{55}
+\contentsline {figure}{\numberline {Figure 5.15}{\ignorespaces Sixth example of the abnormal trajectories detected by our framework.}}{55}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {Figure 6.1}{\ignorespaces One situation that our algorithm cannot detect the anomalies. Two normal lanes (Lane $A$ and Lane $B$) detected by DBSCANSD are in red and purple. A new anomaly trajectory $C$ is in blue.}}{62}
+\addvspace {10\p@ }

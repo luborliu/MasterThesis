@@ -1,0 +1,106 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: simple.aux
+The style file: plain.bst
+Database file #1: simple.bib
+You're missing a field name---line 60 of file simple.bib
+ :  
+ :  %url = {http://doi.acm.org/10.1145/1247480.1247546},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 269 of file simple.bib
+ : 
+ : %URL = {http://www.mdpi.com/1099-4300/15/6/2218},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 360 of file simple.bib
+ :  
+ :  %url = {http://dx.doi.org/10.1016/j.datak.2007.10.008},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "gpsDistance" isn't style-file defined
+--line 496 of file simple.bib
+"{" immediately follows a field name---line 499 of file simple.bib
+ : \url
+ :     {http://www.movable-type.co.uk/scripts/latlong.html}
+I'm skipping whatever remains of this entry
+You're missing a field name---line 519 of file simple.bib
+ :   
+ :   %url = {http://dblp.uni-trier.de/db/journals/tcsv/tcsv18.html#MorrisT08},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 586 of file simple.bib
+ :  
+ :  %url = {http://doi.acm.org/10.1145/366622.366642},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 605 of file simple.bib
+ :  
+ :  %url = {http://dx.doi.org/10.1016/S0022-0000(73)80033-9},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 634 of file simple.bib
+ :   
+ :   %author={International Maritime Organization},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 647 of file simple.bib
+ :   
+ :   address={London},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 653 of file simple.bib
+ : @inproceedings{bigdata2014
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, editor, or key in IALA
+Warning--to sort, need author or key in tss
+Warning--empty author and editor in IALA
+Warning--empty institution in Candide
+Warning--can't use both volume and number fields in optics
+Warning--empty booktitle in DBScan96
+Warning--there's a number but no volume in visionsurvey
+Warning--empty year in visionsurvey
+Warning--can't use both volume and number fields in birch
+You've used 63 entries,
+            2118 wiz_defined-function locations,
+            869 strings with 15021 characters,
+and the built_in function-call counts, 24064 in all, are:
+= -- 2469
+> -- 997
+< -- 36
++ -- 401
+- -- 330
+* -- 1596
+:= -- 3728
+add.period$ -- 212
+call.type$ -- 63
+change.case$ -- 344
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 1005
+empty$ -- 1960
+format.name$ -- 330
+if$ -- 5277
+int.to.chr$ -- 0
+int.to.str$ -- 63
+missing$ -- 68
+newline$ -- 316
+num.names$ -- 122
+pop$ -- 429
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 740
+stack$ -- 0
+substring$ -- 1589
+swap$ -- 329
+text.length$ -- 36
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 234
+warning$ -- 9
+while$ -- 242
+width$ -- 65
+write$ -- 712
+(There were 10 error messages)

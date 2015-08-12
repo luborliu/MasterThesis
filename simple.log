@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  11 AUG 2015 11:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  11 AUG 2015 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,13 @@ le.toc [2
  [4
 
 
-] (./simple.lof [5
+] (./simple.lof
+Overfull \hbox (1.91438pt too wide) in paragraph at lines 17--17
+ [][] []\OT1/cmr/m/n/12 The clus-ter-ing re-sults of JUAN DE FUCA STRAIT area. 
+Points 
+ []
+
+[5
 
 
 ]
@@ -724,18 +730,18 @@ Overfull \hbox (1.91583pt too wide) in paragraph at lines 26--26
 -ping Points 
  []
 
-)
+[6])
 \tf@lof=\write8
 \openout8 = `simple.lof'.
 
- [6]
+ [7]
 \ab@page=\count181
- (./simple.nls [7
+ (./simple.nls [8
 
 
-]) [8
+]) [9
 
-] [9
+] [10
 
 ]
 Dalthesis preface pages completed.
@@ -750,13 +756,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--176
 officer-charged-with-
  []
 
+[1
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-]
-[2] <structure.png, id=45, 474.77374pt x 582.175pt>
+] [2] <structure.png, id=48, 474.77374pt x 582.175pt>
 File: structure.png Graphic file (type png)
  <use structure.png>
 Package pdftex.def Info: structure.png used on input line 217.
@@ -814,7 +816,7 @@ it/12 x[]; t[]$\OT1/cmr/m/it/12 ), ... , ($\OML/cmm/m/it/12 x[]; t[]$\OT1/cmr/m
 [20]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 449.
- [21] [22] <relations.png, id=113, 286.06876pt x 318.18875pt>
+ [21] [22] <relations.png, id=116, 286.06876pt x 318.18875pt>
 File: relations.png Graphic file (type png)
 
 <use relations.png>
@@ -838,7 +840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
-[26] [27] <gravityCalculation.png, id=133, 1368.11125pt x 1062.97125pt>
+[26] [27] <gravityCalculation.png, id=137, 1368.11125pt x 1062.97125pt>
 File: gravityCalculation.png Graphic file (type png)
 
 <use gravityCalculation.png>
@@ -849,14 +851,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-[29] [30] <borderValue.png, id=146, 645.41125pt x 335.2525pt>
+[29] [30] <borderValue.png, id=149, 645.41125pt x 335.2525pt>
 File: borderValue.png Graphic file (type png)
 
 <use borderValue.png>
 Package pdftex.def Info: borderValue.png used on input line 817.
 (pdftex.def)             Requested size: 397.48499pt x 206.46808pt.
  [31] [32]
-<stopExample.png, id=153, 413.545pt x 318.18875pt>
+<stopExample.png, id=156, 413.545pt x 318.18875pt>
 File: stopExample.png Graphic file (type png)
  <use stopExample.png>
 Package pdftex.def Info: stopExample.png used on input line 827.
@@ -890,14 +892,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--904
 
  []
 
-[37] <abnormalSpeedDirection.png, id=172, 860.21375pt x 261.97874pt>
+[37] <abnormalSpeedDirection.png, id=175, 860.21375pt x 261.97874pt>
 File: abnormalSpeedDirection.png Graphic file (type png)
 
 <use abnormalSpeedDirection.png>
 Package pdftex.def Info: abnormalSpeedDirection.png used on input line 926.
 (pdftex.def)             Requested size: 398.3414pt x 142.2659pt.
 
-<cosine.png, id=173, 479.7925pt x 239.89626pt>
+<cosine.png, id=176, 479.7925pt x 239.89626pt>
 File: cosine.png Graphic file (type png)
  <use cosine.png>
 Package pdftex.def Info: cosine.png used on input line 940.
@@ -905,13 +907,13 @@ Package pdftex.def Info: cosine.png used on input line 940.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <./abnormalSpeedDirection.png>] <hist.png, id=178, 536.0025pt x 501.875pt>
+ [38 <./abnormalSpeedDirection.png>] <hist.png, id=181, 536.0025pt x 501.875pt>
 File: hist.png Graphic file (type png)
 
 <use hist.png>
 Package pdftex.def Info: hist.png used on input line 994.
 (pdftex.def)             Requested size: 256.0748pt x 239.76387pt.
- <cdf.png, id=179, 536.0025pt x 501.875pt>
+ <cdf.png, id=182, 536.0025pt x 501.875pt>
 File: cdf.png Graphic file (type png)
  <use cdf.png>
 Package pdftex.def Info: cdf.png used on input line 1001.
@@ -921,7 +923,7 @@ Chapter 5.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-<jdfk_pic.png, id=197, 944.52875pt x 600.2425pt>
+<jdfk_pic.png, id=200, 944.52875pt x 600.2425pt>
 File: jdfk_pic.png Graphic file (type png)
  <use jdfk_pic.png>
 Package pdftex.def Info: jdfk_pic.png used on input line 1030.
@@ -929,19 +931,19 @@ Package pdftex.def Info: jdfk_pic.png used on input line 1030.
  [43
 
 ]
-<clusterResultJDFK.png, id=201, 2241.37375pt x 1839.87375pt>
+<clusterResultJDFK.png, id=204, 2241.37375pt x 1839.87375pt>
 File: clusterResultJDFK.png Graphic file (type png)
 
 <use clusterResultJDFK.png>
 Package pdftex.def Info: clusterResultJDFK.png used on input line 1042.
 (pdftex.def)             Requested size: 361.34999pt x 296.60367pt.
- <clusterGV.jpg, id=202, 537.9297pt x 441.5697pt>
+ <clusterGV.jpg, id=205, 537.9297pt x 441.5697pt>
 File: clusterGV.jpg Graphic file (type jpg)
 
 <use clusterGV.jpg>
 Package pdftex.def Info: clusterGV.jpg used on input line 1052.
 (pdftex.def)             Requested size: 361.34999pt x 296.63174pt.
- <la_pic.png, id=203, 934.49126pt x 637.38126pt>
+ <la_pic.png, id=206, 934.49126pt x 637.38126pt>
 File: la_pic.png Graphic file (type png)
 
 <use la_pic.png>
@@ -950,102 +952,112 @@ Package pdftex.def Info: la_pic.png used on input line 1065.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./jdfk_pic.png>] <LAStopOriginal.jpg, id=207, 376.2858pt x 602.25pt>
+ [44 <./jdfk_pic.png>] <LAStopOriginal.jpg, id=210, 376.2858pt x 602.25pt>
 File: LAStopOriginal.jpg Graphic file (type jpg)
 
 <use LAStopOriginal.jpg>
 Package pdftex.def Info: LAStopOriginal.jpg used on input line 1076.
 (pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
- <LAnormalStop1.jpg, id=208, 376.2858pt x 602.25pt>
+ <LAnormalStop1.jpg, id=211, 376.2858pt x 602.25pt>
 File: LAnormalStop1.jpg Graphic file (type jpg)
 
 <use LAnormalStop1.jpg>
 Package pdftex.def Info: LAnormalStop1.jpg used on input line 1077.
 (pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
- <LAnormalStop2.jpg, id=209, 376.2858pt x 602.25pt>
-File: LAnormalStop2.jpg Graphic file (type jpg)
 
-<use LAnormalStop2.jpg>
+Underfull \hbox (badness 2875) in paragraph at lines 1077--1077
+[]|\OT1/cmr/m/n/10 (b) Stop-ping clus-ters and Sam-pled
+ []
+
+<LAnormalStop2.jpg, id=212, 376.2858pt x 602.25pt>
+File: LAnormalStop2.jpg Graphic file (type jpg)
+ <use LAnormalStop2.jpg>
 Package pdftex.def Info: LAnormalStop2.jpg used on input line 1078.
 (pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
- <LAmoveOrig.png, id=210, 2601.72pt x 2195.20125pt>
-File: LAmoveOrig.png Graphic file (type png)
 
-<use LAmoveOrig.png>
+<LAmoveOrig.png, id=213, 2601.72pt x 2195.20125pt>
+File: LAmoveOrig.png Graphic file (type png)
+ <use LAmoveOrig.png>
 Package pdftex.def Info: LAmoveOrig.png used on input line 1099.
 (pdftex.def)             Requested size: 361.34999pt x 304.88087pt.
- <LAclustersGV.jpg, id=211, 624.4128pt x 526.8483pt>
-File: LAclustersGV.jpg Graphic file (type jpg)
 
-<use LAclustersGV.jpg>
+<LAclustersGV.jpg, id=214, 624.4128pt x 526.8483pt>
+File: LAclustersGV.jpg Graphic file (type jpg)
+ <use LAclustersGV.jpg>
 Package pdftex.def Info: LAclustersGV.jpg used on input line 1106.
 (pdftex.def)             Requested size: 361.34999pt x 304.8889pt.
+
+Underfull \vbox (badness 1168) has occurred while \output is active []
+
  [45 <./clusterResultJDFK.png>]
 
 LaTeX Warning: Text page 46 contains only floats.
 
 [46 <./clusterGV.jpg> <./la_pic.png>] [47 <./LAStopOriginal.jpg> <./LAnormalSto
-p1.jpg> <./LAnormalStop2.jpg>] [48 <./LAmoveOrig.png>] [49 <./LAclustersGV.jpg>
-] <jdfk_clusters_new.jpg, id=230, 451.6875pt x 414.5889pt>
+p1.jpg> <./LAnormalStop2.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./LAmoveOrig.png>]
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [49 <./LAclustersGV.jpg>] <jdfk_clusters_new.jpg, id=233, 451.6875pt x 414.588
+9pt>
 File: jdfk_clusters_new.jpg Graphic file (type jpg)
 
 <use jdfk_clusters_new.jpg>
 Package pdftex.def Info: jdfk_clusters_new.jpg used on input line 1140.
 (pdftex.def)             Requested size: 361.37115pt x 296.32126pt.
  [50 <./jdfk_clusters_new.jpg>]
-<labelJDFK.png, id=234, 602.25pt x 501.875pt>
+<labelJDFK.png, id=237, 602.25pt x 501.875pt>
 File: labelJDFK.png Graphic file (type png)
  <use labelJDFK.png>
 Package pdftex.def Info: labelJDFK.png used on input line 1211.
 (pdftex.def)             Requested size: 361.34999pt x 301.13498pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1024) has occurred while \output is active []
 
  [51]
-<p1.png, id=238, 501.875pt x 401.5pt>
+<p1.png, id=242, 501.875pt x 401.5pt>
 File: p1.png Graphic file (type png)
  <use p1.png>
 Package pdftex.def Info: p1.png used on input line 1233.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-<p2.png, id=239, 501.875pt x 401.5pt>
+<p2.png, id=243, 501.875pt x 401.5pt>
 File: p2.png Graphic file (type png)
  <use p2.png>
 Package pdftex.def Info: p2.png used on input line 1241.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-<p3.png, id=240, 501.875pt x 401.5pt>
+<p3.png, id=244, 501.875pt x 401.5pt>
 File: p3.png Graphic file (type png)
  <use p3.png>
 Package pdftex.def Info: p3.png used on input line 1249.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-<p4.png, id=241, 501.875pt x 401.5pt>
+<p4.png, id=245, 501.875pt x 401.5pt>
 File: p4.png Graphic file (type png)
  <use p4.png>
 Package pdftex.def Info: p4.png used on input line 1256.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-<p5.png, id=242, 501.875pt x 401.5pt>
+<p5.png, id=246, 501.875pt x 401.5pt>
 File: p5.png Graphic file (type png)
  <use p5.png>
 Package pdftex.def Info: p5.png used on input line 1263.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-<p6.png, id=243, 501.875pt x 401.5pt>
+<p6.png, id=247, 501.875pt x 401.5pt>
 File: p6.png Graphic file (type png)
  <use p6.png>
 Package pdftex.def Info: p6.png used on input line 1271.
-(pdftex.def)             Requested size: 339.68527pt x 289.09814pt.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
 
-Underfull \vbox (badness 3872) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52 <./labelJDFK.png>] [53 <./p1.png> <./p2.png>] [54 <./p3.png> <./p4.png>] [
-55 <./p5.png> <./p6.png>]
-Underfull \vbox (badness 1997) has occurred while \output is active []
-
- [56]
-Underfull \vbox (badness 3240) has occurred while \output is active []
+55 <./p5.png> <./p6.png>] [56]
+Underfull \vbox (badness 5592) has occurred while \output is active []
 
  [57]
 [58]
@@ -1056,7 +1068,7 @@ Underfull \vbox (badness 2418) has occurred while \output is active []
  [59
 
 ]
-[60] <limitation3.png, id=280, 409.53pt x 417.56pt>
+[60] <limitation3.png, id=283, 409.53pt x 417.56pt>
 File: limitation3.png Graphic file (type png)
  <use limitation3.png>
 Package pdftex.def Info: limitation3.png used on input line 1435.
@@ -1220,10 +1232,10 @@ r8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on simple.pdf (99 pages, 3436319 bytes).
+Output written on simple.pdf (100 pages, 3438165 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
+ 430 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

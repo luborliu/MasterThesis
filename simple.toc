@@ -1,9 +1,9 @@
 \baselineskip =0.7\baselineskip 
 \contentsline {chapter}{List of Tables}{iv}
 \contentsline {chapter}{List of Figures}{v}
-\contentsline {chapter}{Abstract}{vii}
-\contentsline {chapter}{List of Abbreviation and Symbols Used}{viii}
-\contentsline {chapter}{Acknowledgements}{ix}
+\contentsline {chapter}{Abstract}{viii}
+\contentsline {chapter}{List of Abbreviation and Symbols Used}{ix}
+\contentsline {chapter}{Acknowledgements}{x}
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -46,9 +46,9 @@
 \contentsline {subsection}{\numberline {5.1.1}Juan de Fuca Strait}{43}
 \contentsline {subsection}{\numberline {5.1.2}Los Angeles Long Beach}{45}
 \addvspace {10\p@ }
-\contentsline {section}{\numberline {5.2}Anomaly Detection Model}{48}
+\contentsline {section}{\numberline {5.2}Anomaly Detection Model}{49}
 \contentsline {subsection}{\numberline {5.2.1}Experiment On Unlabeled Data Set}{50}
-\contentsline {subsection}{\numberline {5.2.2}Experiment On Labeled Data Set}{52}
+\contentsline {subsection}{\numberline {5.2.2}Experiment On Labeled Data Set}{56}
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{59}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

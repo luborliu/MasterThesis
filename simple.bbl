@@ -121,6 +121,12 @@ Abbas Harati-Mokhtari, Alan Wall, Philip Brooks, and Jin Wang.
   error implications.
 \newblock {\em Journal of navigation}, 60(03):373--389, 2007.
 
+\bibitem{mrdbscan}
+Yaobin He, Haoyu Tan, Wuman Luo, Shengzhong Feng, and Jianping Fan.
+\newblock Mr-dbscan: a scalable mapreduce-based dbscan algorithm for heavily
+  skewed data.
+\newblock {\em Frontiers of Computer Science}, 8(1):83--99, 2014.
+
 \bibitem{denclue}
 Alexander Hinneburg and Daniel~A Keim.
 \newblock An efficient approach to clustering in large multimedia databases
@@ -135,7 +141,7 @@ C.~A.~R. Hoare.
 \bibitem{anabook}
 IMO.
 \newblock {\em Ships' Routeing}.
-\newblock International Maritime Organization, 2013.
+\newblock International Maritime Organization, London, 2013.
 
 \bibitem{kmedoids}
 Leonard Kaufman and Peter Rousseeuw.
@@ -184,7 +190,7 @@ Nicolas Le~Guillarme and Xavier Lerouvreur.
 Jae-Gil Lee, Jiawei Han, and Kyu-Young Whang.
 \newblock Trajectory clustering: A partition-and-group framework.
 \newblock In {\em Proceedings of the 2007 ACM SIGMOD Inter. Conf. on Management
-  of Data}, SIGMOD '07, pages 593--604, 2007.
+  of Data}, SIGMOD '07, pages 593--604, New York, NY, USA, 2007. ACM.
 
 \bibitem{cyber}
 Kingsly Leung and Christopher Leckie.
@@ -210,7 +216,8 @@ Bo~Liu, Erico~N de~Souza, Stan Matwin, and Marcin Sydow.
 Brendan~Tran Morris and Mohan~M. Trivedi.
 \newblock A survey of vision-based trajectory learning and analysis for
   surveillance.
-\newblock {\em IEEE Trans. Circuits Syst. Video Techn.}, (8):1114--1127.
+\newblock {\em IEEE Trans. Circuits Syst. Video Techn.}, 18(8):1114--1127,
+  2008.
 
 \bibitem{edit_distance}
 Gonzalo Navarro.
@@ -240,6 +247,14 @@ Andrey~Tietbohl Palma, Vania Bogorny, Bart Kuijpers, and Luis~Otavio Alvares.
   trajectories.
 \newblock In {\em Proceedings of the 2008 ACM Symposium on Applied Computing},
   SAC '08, pages 863--868, New York, NY, USA, 2008. ACM.
+
+\bibitem{pdbscan}
+Md~Mostofa~Ali Patwary, Diana Palsetia, Ankit Agrawal, Wei-keng Liao, Fredrik
+  Manne, and Alok Choudhary.
+\newblock A new scalable parallel dbscan algorithm using the disjoint-set data
+  structure.
+\newblock In {\em High Performance Computing, Networking, Storage and Analysis
+  (SC), 2012 International Conference for}, pages 1--11. IEEE, 2012.
 
 \bibitem{videosurveillance1}
 Claudio Piciarelli, Gian~Luca Foresti, and Lauro Snidaro.
@@ -332,6 +347,7 @@ Henry~S Teng, Kaihu Chen, and SC~Lu.
 Chris Veness.
 \newblock Calculate distance, bearing and more between latitude/longitude
   points.
+\newblock \url{http://www.movable-type.co.uk/scripts/latlong.html}.
 
 \bibitem{vespe12}
 Michele Vespe, Ingrid Visentini, Karna Bryan, and Paolo Braca.

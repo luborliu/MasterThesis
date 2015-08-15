@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  11 AUG 2015 15:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.7)  13 AUG 2015 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,7 +801,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [18]
 Chapter 3.
 
-Underfull \vbox (badness 2418) has occurred while \output is active []
+Underfull \vbox (badness 4713) has occurred while \output is active []
 
  [19
 
@@ -822,8 +822,8 @@ File: relations.png Graphic file (type png)
 <use relations.png>
 Package pdftex.def Info: relations.png used on input line 501.
 (pdftex.def)             Requested size: 216.81pt x 241.15593pt.
- [23 <./relations.png>]
-Underfull \hbox (badness 5652) in paragraph at lines 562--563
+ [23]
+Underfull \hbox (badness 5652) in paragraph at lines 561--562
 []\OT1/cmr/bx/n/12 pro-ce-dure \OT1/cmr/m/sc/12 queryNeigh-bor-Points\OT1/cmr/m
 /n/12 ($\OML/cmm/m/it/12 data$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 P$\OT1/cmr/m/
 n/12 , $\OML/cmm/m/it/12 eps$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 MinPts$\OT1/cm
@@ -831,64 +831,70 @@ r/m/n/12 , $\OML/cmm/m/it/12 MaxDir$\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--614
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 
  []
 
-[24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+[24 <./relations.png>] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
-[26] [27] <gravityCalculation.png, id=137, 1368.11125pt x 1062.97125pt>
+
+Underfull \vbox (badness 6332) has occurred while \output is active []
+
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<gravityCalculation.png, id=137, 1368.11125pt x 1062.97125pt>
 File: gravityCalculation.png Graphic file (type png)
 
 <use gravityCalculation.png>
-Package pdftex.def Info: gravityCalculation.png used on input line 652.
+Package pdftex.def Info: gravityCalculation.png used on input line 651.
 (pdftex.def)             Requested size: 433.62pt x 336.89761pt.
- [28 <./gravityCalculation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
-[29] [30] <borderValue.png, id=149, 645.41125pt x 335.2525pt>
+[29 <./gravityCalculation.png>] [30] [31]
+<borderValue.png, id=152, 645.41125pt x 335.2525pt>
 File: borderValue.png Graphic file (type png)
-
-<use borderValue.png>
-Package pdftex.def Info: borderValue.png used on input line 817.
+ <use borderValue.png>
+Package pdftex.def Info: borderValue.png used on input line 816.
 (pdftex.def)             Requested size: 397.48499pt x 206.46808pt.
- [31] [32]
-<stopExample.png, id=156, 413.545pt x 318.18875pt>
+
+[32 <./borderValue.png>] [33]
+<stopExample.png, id=161, 413.545pt x 318.18875pt>
 File: stopExample.png Graphic file (type png)
  <use stopExample.png>
-Package pdftex.def Info: stopExample.png used on input line 827.
+Package pdftex.def Info: stopExample.png used on input line 826.
 (pdftex.def)             Requested size: 325.215pt x 250.23024pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./borderValue.png>] [34 <./stopExample.png>] [35]
+[34 <./stopExample.png>] [35]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
 
  []
 
 [36
 
 ]
-Overfull \hbox (2.88274pt too wide) in paragraph at lines 882--889
+Overfull \hbox (2.88274pt too wide) in paragraph at lines 881--888
 []\OT1/cmr/m/n/12 For mov-ing tra-jec-tory points, we adopt RDD ($\OML/cmm/m/it
 /12 D[]$\OT1/cmr/m/n/12 ) rather than ADD ($\OML/cmm/m/it/12 D[]$\OT1/cmr/m/n/1
 2 )
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--889
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--904
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
 
@@ -896,13 +902,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 903--904
 File: abnormalSpeedDirection.png Graphic file (type png)
 
 <use abnormalSpeedDirection.png>
-Package pdftex.def Info: abnormalSpeedDirection.png used on input line 926.
+Package pdftex.def Info: abnormalSpeedDirection.png used on input line 925.
 (pdftex.def)             Requested size: 398.3414pt x 142.2659pt.
 
 <cosine.png, id=176, 479.7925pt x 239.89626pt>
 File: cosine.png Graphic file (type png)
  <use cosine.png>
-Package pdftex.def Info: cosine.png used on input line 940.
+Package pdftex.def Info: cosine.png used on input line 939.
 (pdftex.def)             Requested size: 227.62204pt x 113.81279pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -911,153 +917,144 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: hist.png Graphic file (type png)
 
 <use hist.png>
-Package pdftex.def Info: hist.png used on input line 994.
+Package pdftex.def Info: hist.png used on input line 993.
 (pdftex.def)             Requested size: 256.0748pt x 239.76387pt.
  <cdf.png, id=182, 536.0025pt x 501.875pt>
 File: cdf.png Graphic file (type png)
  <use cdf.png>
-Package pdftex.def Info: cdf.png used on input line 1001.
+Package pdftex.def Info: cdf.png used on input line 1000.
 (pdftex.def)             Requested size: 256.0748pt x 239.76387pt.
  [39 <./cosine.png>] [40] [41 <./hist.png> <./cdf.png>] [42]
 Chapter 5.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-<jdfk_pic.png, id=200, 944.52875pt x 600.2425pt>
-File: jdfk_pic.png Graphic file (type png)
- <use jdfk_pic.png>
-Package pdftex.def Info: jdfk_pic.png used on input line 1030.
-(pdftex.def)             Requested size: 354.12535pt x 245.71634pt.
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
  [43
 
 ]
+<jdfk_pic.png, id=203, 944.52875pt x 600.2425pt>
+File: jdfk_pic.png Graphic file (type png)
+ <use jdfk_pic.png>
+Package pdftex.def Info: jdfk_pic.png used on input line 1032.
+(pdftex.def)             Requested size: 354.12535pt x 245.71634pt.
+
 <clusterResultJDFK.png, id=204, 2241.37375pt x 1839.87375pt>
 File: clusterResultJDFK.png Graphic file (type png)
 
 <use clusterResultJDFK.png>
-Package pdftex.def Info: clusterResultJDFK.png used on input line 1042.
+Package pdftex.def Info: clusterResultJDFK.png used on input line 1044.
 (pdftex.def)             Requested size: 361.34999pt x 296.60367pt.
  <clusterGV.jpg, id=205, 537.9297pt x 441.5697pt>
 File: clusterGV.jpg Graphic file (type jpg)
 
 <use clusterGV.jpg>
-Package pdftex.def Info: clusterGV.jpg used on input line 1052.
+Package pdftex.def Info: clusterGV.jpg used on input line 1054.
 (pdftex.def)             Requested size: 361.34999pt x 296.63174pt.
- <la_pic.png, id=206, 934.49126pt x 637.38126pt>
+ [44 <./jdfk_pic.png>]
+<la_pic.png, id=209, 934.49126pt x 637.38126pt>
 File: la_pic.png Graphic file (type png)
-
-<use la_pic.png>
-Package pdftex.def Info: la_pic.png used on input line 1065.
+ <use la_pic.png>
+Package pdftex.def Info: la_pic.png used on input line 1067.
 (pdftex.def)             Requested size: 332.44243pt x 226.74362pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./jdfk_pic.png>] <LAStopOriginal.jpg, id=210, 376.2858pt x 602.25pt>
-File: LAStopOriginal.jpg Graphic file (type jpg)
-
-<use LAStopOriginal.jpg>
-Package pdftex.def Info: LAStopOriginal.jpg used on input line 1076.
-(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
- <LAnormalStop1.jpg, id=211, 376.2858pt x 602.25pt>
-File: LAnormalStop1.jpg Graphic file (type jpg)
-
-<use LAnormalStop1.jpg>
-Package pdftex.def Info: LAnormalStop1.jpg used on input line 1077.
-(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
-
-Underfull \hbox (badness 2875) in paragraph at lines 1077--1077
-[]|\OT1/cmr/m/n/10 (b) Stop-ping clus-ters and Sam-pled
- []
-
-<LAnormalStop2.jpg, id=212, 376.2858pt x 602.25pt>
-File: LAnormalStop2.jpg Graphic file (type jpg)
- <use LAnormalStop2.jpg>
-Package pdftex.def Info: LAnormalStop2.jpg used on input line 1078.
-(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
-
-<LAmoveOrig.png, id=213, 2601.72pt x 2195.20125pt>
-File: LAmoveOrig.png Graphic file (type png)
- <use LAmoveOrig.png>
-Package pdftex.def Info: LAmoveOrig.png used on input line 1099.
-(pdftex.def)             Requested size: 361.34999pt x 304.88087pt.
-
-<LAclustersGV.jpg, id=214, 624.4128pt x 526.8483pt>
-File: LAclustersGV.jpg Graphic file (type jpg)
- <use LAclustersGV.jpg>
-Package pdftex.def Info: LAclustersGV.jpg used on input line 1106.
-(pdftex.def)             Requested size: 361.34999pt x 304.8889pt.
-
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
  [45 <./clusterResultJDFK.png>]
 
 LaTeX Warning: Text page 46 contains only floats.
 
-[46 <./clusterGV.jpg> <./la_pic.png>] [47 <./LAStopOriginal.jpg> <./LAnormalSto
-p1.jpg> <./LAnormalStop2.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[46 <./clusterGV.jpg> <./la_pic.png>]
+<LAStopOriginal.jpg, id=218, 376.2858pt x 602.25pt>
+File: LAStopOriginal.jpg Graphic file (type jpg)
+ <use LAStopOriginal.jpg>
+Package pdftex.def Info: LAStopOriginal.jpg used on input line 1078.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
 
- [48 <./LAmoveOrig.png>]
-Underfull \vbox (badness 1931) has occurred while \output is active []
+<LAnormalStop1.jpg, id=219, 376.2858pt x 602.25pt>
+File: LAnormalStop1.jpg Graphic file (type jpg)
+ <use LAnormalStop1.jpg>
+Package pdftex.def Info: LAnormalStop1.jpg used on input line 1079.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
 
- [49 <./LAclustersGV.jpg>] <jdfk_clusters_new.jpg, id=233, 451.6875pt x 414.588
-9pt>
+Underfull \hbox (badness 2875) in paragraph at lines 1079--1079
+[]|\OT1/cmr/m/n/10 (b) Stop-ping clus-ters and Sam-pled
+ []
+
+<LAnormalStop2.jpg, id=220, 376.2858pt x 602.25pt>
+File: LAnormalStop2.jpg Graphic file (type jpg)
+ <use LAnormalStop2.jpg>
+Package pdftex.def Info: LAnormalStop2.jpg used on input line 1080.
+(pdftex.def)             Requested size: 192.23846pt x 307.67642pt.
+
+<LAmoveOrig.png, id=221, 2601.72pt x 2195.20125pt>
+File: LAmoveOrig.png Graphic file (type png)
+ <use LAmoveOrig.png>
+Package pdftex.def Info: LAmoveOrig.png used on input line 1101.
+(pdftex.def)             Requested size: 361.34999pt x 304.88087pt.
+
+<LAclustersGV.jpg, id=222, 624.4128pt x 526.8483pt>
+File: LAclustersGV.jpg Graphic file (type jpg)
+ <use LAclustersGV.jpg>
+Package pdftex.def Info: LAclustersGV.jpg used on input line 1108.
+(pdftex.def)             Requested size: 361.34999pt x 304.8889pt.
+
+[47] [48 <./LAStopOriginal.jpg> <./LAnormalStop1.jpg> <./LAnormalStop2.jpg>]
+<jdfk_clusters_new.jpg, id=229, 451.6875pt x 414.5889pt>
 File: jdfk_clusters_new.jpg Graphic file (type jpg)
 
 <use jdfk_clusters_new.jpg>
-Package pdftex.def Info: jdfk_clusters_new.jpg used on input line 1140.
+Package pdftex.def Info: jdfk_clusters_new.jpg used on input line 1142.
 (pdftex.def)             Requested size: 361.37115pt x 296.32126pt.
- [50 <./jdfk_clusters_new.jpg>]
+ [49 <./LAmoveOrig.png>] [50 <./LAclustersGV.jpg>]
 <labelJDFK.png, id=237, 602.25pt x 501.875pt>
 File: labelJDFK.png Graphic file (type png)
  <use labelJDFK.png>
-Package pdftex.def Info: labelJDFK.png used on input line 1211.
+Package pdftex.def Info: labelJDFK.png used on input line 1213.
 (pdftex.def)             Requested size: 361.34999pt x 301.13498pt.
 
-Underfull \vbox (badness 1024) has occurred while \output is active []
+Underfull \vbox (badness 3780) has occurred while \output is active []
 
- [51]
-<p1.png, id=242, 501.875pt x 401.5pt>
-File: p1.png Graphic file (type png)
- <use p1.png>
-Package pdftex.def Info: p1.png used on input line 1233.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
-<p2.png, id=243, 501.875pt x 401.5pt>
-File: p2.png Graphic file (type png)
- <use p2.png>
-Package pdftex.def Info: p2.png used on input line 1241.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
-<p3.png, id=244, 501.875pt x 401.5pt>
-File: p3.png Graphic file (type png)
- <use p3.png>
-Package pdftex.def Info: p3.png used on input line 1249.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
-<p4.png, id=245, 501.875pt x 401.5pt>
-File: p4.png Graphic file (type png)
- <use p4.png>
-Package pdftex.def Info: p4.png used on input line 1256.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
-<p5.png, id=246, 501.875pt x 401.5pt>
-File: p5.png Graphic file (type png)
- <use p5.png>
-Package pdftex.def Info: p5.png used on input line 1263.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
-<p6.png, id=247, 501.875pt x 401.5pt>
-File: p6.png Graphic file (type png)
- <use p6.png>
-Package pdftex.def Info: p6.png used on input line 1271.
-(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
-
+ [51 <./jdfk_clusters_new.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./labelJDFK.png>] [53 <./p1.png> <./p2.png>] [54 <./p3.png> <./p4.png>] [
-55 <./p5.png> <./p6.png>] [56]
-Underfull \vbox (badness 5592) has occurred while \output is active []
+ [52 <./labelJDFK.png>] <p1.png, id=246, 501.875pt x 401.5pt>
+File: p1.png Graphic file (type png)
+ <use p1.png>
+Package pdftex.def Info: p1.png used on input line 1235.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+
+<p2.png, id=247, 501.875pt x 401.5pt>
+File: p2.png Graphic file (type png)
+ <use p2.png>
+Package pdftex.def Info: p2.png used on input line 1243.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+
+<p3.png, id=248, 501.875pt x 401.5pt>
+File: p3.png Graphic file (type png)
+ <use p3.png>
+Package pdftex.def Info: p3.png used on input line 1251.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+
+<p4.png, id=249, 501.875pt x 401.5pt>
+File: p4.png Graphic file (type png)
+ <use p4.png>
+Package pdftex.def Info: p4.png used on input line 1258.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+
+<p5.png, id=250, 501.875pt x 401.5pt>
+File: p5.png Graphic file (type png)
+ <use p5.png>
+Package pdftex.def Info: p5.png used on input line 1265.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+
+<p6.png, id=251, 501.875pt x 401.5pt>
+File: p6.png Graphic file (type png)
+ <use p6.png>
+Package pdftex.def Info: p6.png used on input line 1273.
+(pdftex.def)             Requested size: 296.3181pt x 238.49417pt.
+ [53 <./p1.png>] [54 <./p2.png> <./p3.png>] [55 <./p4.png> <./p5.png>] [56 <./p
+6.png>]
+Underfull \vbox (badness 2277) has occurred while \output is active []
 
  [57]
 [58]
@@ -1071,13 +1068,13 @@ Underfull \vbox (badness 2418) has occurred while \output is active []
 [60] <limitation3.png, id=283, 409.53pt x 417.56pt>
 File: limitation3.png Graphic file (type png)
  <use limitation3.png>
-Package pdftex.def Info: limitation3.png used on input line 1435.
+Package pdftex.def Info: limitation3.png used on input line 1436.
 (pdftex.def)             Requested size: 289.09987pt x 252.94632pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [61]
-(./simple.bbl [62 <./limitation3.png>]
+[62 <./limitation3.png>] (./simple.bbl [63]
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 \OT1/cmtt/m/n/12 / / www . imo . org / blast / blastDataHelper . asp ? data _ i
 d = 14761&filename = 57 .
@@ -1085,16 +1082,16 @@ d = 14761&filename = 57 .
 
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
-[63
+[64
 
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [64] [65]
+ [65] [66]
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no – in font cmti12!
- [66] [67]) [68]
+ [67] [68]) [69]
 Appendix A.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
@@ -1102,7 +1099,7 @@ File: lstlang1.sty 2004/09/05 1.3 listings language file
 (./code/TrajectoryPoint.java
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
-) [69
+) [70
 
 ] (./code/Cluster.java
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 2.
@@ -1113,7 +1110,7 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
 )
-(./code/DBScanSD.java [70]
+(./code/DBScanSD.java [71]
 Overfull \hbox (10.3845pt too wide) in paragraph at lines 12--13
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1131,7 +1128,7 @@ Overfull \hbox (22.38463pt too wide) in paragraph at lines 30--31
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [72]
 Overfull \hbox (16.38457pt too wide) in paragraph at lines 62--63
 [][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1139,12 +1136,12 @@ Overfull \hbox (16.38457pt too wide) in paragraph at lines 62--63
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73])
-(./code/GravityVector.java [74]) (./code/MappingPoint.java [75])
-(./code/GravityVectorExtraction.java [76]
+ [74])
+(./code/GravityVector.java [75]) (./code/MappingPoint.java [76])
+(./code/GravityVectorExtraction.java [77]
 Overfull \hbox (6.38426pt too wide) in paragraph at lines 13--14
 [][][][][][][][][][] 
  []
@@ -1152,7 +1149,7 @@ Overfull \hbox (6.38426pt too wide) in paragraph at lines 13--14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
+ [78]
 Overfull \hbox (10.3845pt too wide) in paragraph at lines 76--77
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1160,8 +1157,8 @@ Overfull \hbox (10.3845pt too wide) in paragraph at lines 76--77
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78])
-[79] (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+ [79])
+[80] (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -1173,18 +1170,15 @@ File: lstlang3.sty 2004/09/05 1.3 listings language file
 (./code/SSPExtraction.R
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80])
-[81]
+ [81])
+[82]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
- (./code/anomalyDetection.R [82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83]
+ (./code/anomalyDetection.R [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84]
@@ -1203,17 +1197,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
 Overfull \hbox (4.38445pt too wide) in paragraph at lines 234--235
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ]  
  []
 
-) [90] (./simple.aux) ) 
+) [91] (./simple.aux) ) 
 Here is how much of TeX's memory you used:
- 14333 strings out of 493315
- 284077 string characters out of 6137904
- 474866 words of memory out of 5000000
- 17517 multiletter control sequences out of 15000+600000
+ 14335 strings out of 493315
+ 284096 string characters out of 6137904
+ 474874 words of memory out of 5000000
+ 17519 multiletter control sequences out of 15000+600000
  11109 words of font info for 41 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,13n,44p,1762b,2195s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1232,10 +1229,10 @@ r8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on simple.pdf (100 pages, 3438165 bytes).
+Output written on simple.pdf (101 pages, 3442525 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
+ 433 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

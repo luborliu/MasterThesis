@@ -183,7 +183,7 @@ AIS messages are automatically broadcasted with a reporting frequency directly p
 
 IMO also controls the navigational lanes that vessels must use when approaching some ports around the world. Specifically, the rules which regulate the general directions in the specific regions for the vessels to navigate are called Traffic Separation Schemes (TSS) \cite{tss}.  The regulations to establish TSSs mandatory were first proposed by IMO's Maritime Safety Committee meeting in March 1971 and this recommendation was adopted by the IMO later the same year. The first corresponding mandatory traffic scheme is the Dover Straits scheme.\footnote{http://www.imo.org/OurWork/Safety/Navigation/Pages/ShipsRouteing.aspx} These navigational lanes are definitely good resources for maritime surveillance analysis, but unfortunately, current tools do not offer automatic ways to check whether the vessels are obeying these lanes. 
 
-Although TSS regulates the normal geographical lanes for ships to sail, it does not provide exact speed regulations in specific regions. More specifically, there are no rules to determine the maximum or minimum speed of a particular type of vessels to sail in a given area. As a consequence, only checking if the ships are obeying the lanes cannot satisfy the demand of maritime surveillance. Fortunately, one dynamic type of information, SOG (Speed Over Ground), is included in AIS messages and approaches that are able to utilize this historical speed information for anomaly detection are desirable.
+ Only checking if the ships are obeying the lanes cannot satisfy the demand of maritime surveillance. TSS regulates the normal geographical lanes for ships to sail, but it does not provide exact speed regulations in specific regions. More specifically, there are no rules to determine the maximum or minimum speed of a particular type of vessels to sail in a given area. Although there are some rules defined by particular ports authorities to restrict the vessels' speed, it is still necessary to apply some methods to extract specific speed information from the real-life dataset.  Fortunately, one dynamic type of information, SOG (Speed Over Ground), is included in AIS messages and approaches that are able to utilize this historical speed information for anomaly detection are desirable.
 
 %In this thesis, we first propose a clustering-based model that uses IMO rules in clustering real trajectory data set. The first step of the model is to adjust the parameters of the density-based clustering algorithm to find clusters that are close to the main routes defined by IMO. Such  clustering algorithm also takes into account non-spatial attributes, like speed and direction, when building clusters. The second step is to extract the centers of those clusters, which we call the Gravity Vector (GV). This approach also has the advantage to detect extra tracks not originally defined by IMO rules, which will be presented in Section 3.
 
@@ -355,8 +355,8 @@ Another main advantage of the clustering framework proposed in this thesis is th
 \section{Anomaly Detection in Maritime Surveillance}
 \label{survey_anomaly_detection}
 
-The objective of anomaly detection is to find patterns in data that do not conform to expected behavior and these nonconforming patterns are often referred to as anomalies or outliers \cite{chandola}. Anomalies or outliers are related to, but distinct from, noise in the data. As defined in \cite{chandola}, noise is some patterns or phenomenons in data that are not of interest to the analyst, but act as a hindrance to data analysis. Thus, activities on handling these unwanted noise involve noise removal \cite{teng1990adaptive} and noise accommodation \cite{rousseeuw2005}. But in anomaly detection tasks, the outliers or the anomalies are the patterns which attract much attention from the analysts in various domains, such as fraud detection for credit cards \cite{creditcard}, insurance \cite{insurance}, or health care \cite{healthcare}, intrusion detection
-for cyber-security \cite{cyber} and military surveillance for enemy activities \cite{chandola}.  In this thesis, our work focuses on detecting the anomaly navigational behaviors  of the ships or vessels. 
+The objective of anomaly detection is to find patterns in data that do not conform to expected behavior and these nonconforming patterns are often referred to as anomalies or outliers \cite{chandola}. Anomalies or outliers are related to, but distinct from, noise in the data. As defined in \cite{chandola}, noise is some patterns or phenomena in data that are not of interest to the analyst, but act as a hindrance to data analysis. Thus, activities on handling these unwanted noise involve noise removal \cite{teng1990adaptive} and noise accommodation \cite{rousseeuw2005}. But in anomaly detection tasks, the outliers or the anomalies are the patterns which attract much attention from the analysts in various domains, such as fraud detection for credit cards \cite{creditcard}, insurance \cite{insurance}, or health care \cite{healthcare}, intrusion detection
+for cyber-security \cite{cyber} and military surveillance for enemy activities \cite{chandola}.  In this thesis, our work focuses on detecting the anomaly navigational behaviors of the ships or vessels. Since noise filtering process is not involved in the pre-processing step, the noise caused by AIS devices' issues might also be detected as part of the anomalies.
 
 Maritime Anomaly Detection techniques primarily fall into two categories: statistical modelling \cite{gmm}\cite{kde}\cite{Gerben} and predictive modelling \cite{PallottaFramework}\cite{bn_White}\cite{bn_Richard}. The general idea of  statistical techniques for anomaly detection is to fit a statistical model for normal behaviors with the given data set and then apply a statistical inference test to determine if a previously unseen instance belongs to the model \cite{chandola}. Approaches based on predictive models usually predict future status information (e.g. position, speed and course) of a particular vessel and then compare the real data with the prediction to decide the abnormality. Additionally, there is another type of approach trying to solve the problem based on predefined rules. One representative work was done by Roy $et$ $al$. \cite{roy2010rule}\cite{roy2009categorization} and an expert system for automated anomaly detection was introduced.  As we know, one limitation about these kind of systems is that they are  relying on the knowledge of predefined rules, as a result, much effort needs to be done to categorize anomalies. In the papers \cite{roy2010rule}\cite{roy2009categorization}, the authors identified a taxonomy of kinematic and geo-spatial concepts in the vessels tracking domain and the taxonomy has to be updated once a new rule is found.  Since not much work focuses on rule-based type of techniques, this survey of maritime anomaly detection is more about the other two main categories.
 
@@ -409,7 +409,7 @@ Vessels consistently follow different movement patterns in different areas. For 
 
 As a consequence, Spaccapietra \cite{stopmove} introduced a model to reason about trajectories, which is called stops and moves. So a trajectory can be treated as a sequence of moves and stops \cite{stopmove}, and in the work done by \cite{vespe12}\cite{PallottaFramework}\cite{Nicolas}, maritime trajectories analysis is conducted from these two different aspects as well, moving patterns and stopping patterns distinguished by a speed threshold. According to \cite{Nicolas}, the stop and move model has two main advantages: 1) stopping areas are interesting areas which need to be discovered; 2) stopping points are one important source of noise during trajectory clustering and stopping points do not include any motion information for path modelling. In addition to the above mentioned advantages, another benefit is that it can help to decrease the search space complexity during moving trajectories clustering since the stopping points are filtered out before applying the algorithm. %and as as result, it helps to enhance the moving trajectories' clustering performance.  
 
-In this work, we employ a similar method to extract different normal patterns from the historical AIS dataset with a stopping SOG (Speed Over Ground) threshold of 0.5 knots. More specifically, we first divide the historical AIS data into two subsets: the set of moving points (with SOG not less than 0.5 knots) and the set of stopping points (with SOG less than 0.5 knots). Instead of merely clustering the waypoints of the trajectory data \cite{vespe12}\cite{PallottaFramework}, normal moving trajectories and arbitrary shapes of stopping regions will be extracted based on the entire moving and stopping dataset in the specific area, respectively.
+In this work, we employ a similar method to extract different normal patterns from the historical AIS dataset with a stopping SOG (Speed Over Ground) threshold of 0.5 knots. More specifically, we first divide the historical AIS data into two subsets: the set of moving points (with SOG not less than 0.5 knots) and the set of stopping points (with SOG less than 0.5 knots). The threshold of 0.5 knots is selected based on multiple experiments: we have tried the numbers from 0.1 to 1.0 by increments of 0.05. It shows that there is no significant difference between the clustering results. Since our approach is density-based, the high density stopping areas are mostly contributed by those points with 0 knots. Thus, the approach is not sensitive to the threshold selected by users. Instead of merely clustering the waypoints of the trajectory data \cite{vespe12}\cite{PallottaFramework}, normal moving trajectories and arbitrary shapes of stopping regions will be extracted based on the entire moving and stopping dataset in the specific area, respectively.
 
 In this chapter, a definition for a trajectory in the maritime domain (Section \ref{sec:trajectory_representation}) is first given and then the model for extracting normal patterns from the historical AIS data is proposed.  %This clustering-based normal traffic patterns extraction model first divides the AIS data into moving and stopping parts respectively based on a stopping SOG (Speed Over Ground) threshold of 0.5 knots. 
 For the case where SOG is not less than 0.5 knots (moving patterns), we propose DBSCANSD (Density-Based Spatial Clustering of Applications with Noise considering Speed and Direction) as the basic algorithm to detect the main traffic lanes within the data. The algorithm's output is a set of Gravity Vectors (GV), which are vectors formed by 5 features: average COG, average SOG, average Latitude, average Longitude and Median Distance. In Section \ref{sec:normal_moving_model},  for the case where the SOG is less than 0.5 knots (stopping areas), the original DBSCAN \cite{DBScan96} algorithm is executed because speed and direction are not important factors. Another type of vector is created as output, labelled Sampled Stopping Point (SSP), which is dependent only on the geographic shape of the region. (Section \ref{sec:normal_stopping_model}) 
@@ -468,13 +468,13 @@ Then in the following, we also give the formal definitions of other essential no
 \begin{definition}
 \label{def:core_trajectory_point}
 (Core trajectory point)
-Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is called a core trajectory point w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if $\left|N_{\epsilon}(p)\right| \geq MinPts$ \}
+Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is called a core trajectory point w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if $\left|N_{\epsilon}(p)\right| \geq MinPts$
 \end{definition}
 
 \begin{definition}
 \label{def:directly_density_reachable}
 (Directly density-reachable)
-Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is directly density-reachable from another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if $p \in N_{\epsilon}(q) $ and $\left|N_{\epsilon}(q)\right| \geq MinPts$ \}
+Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is directly density-reachable from another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if $p \in N_{\epsilon}(q) $ and $\left|N_{\epsilon}(q)\right| \geq MinPts$ 
 \end{definition}
 
 From Definition \ref{def:directly_density_reachable}, we can find out whether point $q$ is a core trajectory point according to Definition \ref{def:core_trajectory_point}. Because $\left|N_{\epsilon}(q)\right| \geq MinPts$, $q$ is a core trajectory point. If the point $q$ is also directly density-reachable from the point $p$, the point $q$ will be also a core trajectory point clearly. But when the point $p$ is not a core point and it is directly density-reachable from core point $q$, the point $p$ is called \textbf{Border Trajectory Point}.
@@ -482,7 +482,7 @@ From Definition \ref{def:directly_density_reachable}, we can find out whether po
 \begin{definition}
 \label{def:density_reachable}
 (Density-reachable)
-Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is density-reachable from another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if there is a chain of trajectory points $p_1,..., p_n, p_1 = q, p_n = p$ such that $p_{i+1}$ is directly density-reachable from $p_i$  ( 1 $\leq$ $i<n$) \}
+Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is density-reachable from another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if there is a chain of trajectory points $p_1,..., p_n, p_1 = q, p_n = p$ such that $p_{i+1}$ is directly density-reachable from $p_i$  ( 1 $\leq$ $i<n$)
 \end{definition}
 
 From Definition \ref{def:density_reachable}, we can find the trajectory point $p$ can be either a border trajectory point or core trajectory point if $p$ is density-reachable from point $q$. But the point $q$ and other points (except $p$) in the chain must be core trajectory points. Therefore, this relation is transitive, but it is not symmetric \cite{DBScan96}.
@@ -491,7 +491,7 @@ From Definition \ref{def:density_reachable}, we can find the trajectory point $p
 \begin{definition}
 \label{def:density_connected}
 (Density-connected)
-Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is density-connected to another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if there is a trajectory point o such that both p and q is density-reachable from o w.r.t.  $\epsilon$, MinPts, MaxSpd and MaxDir\}
+Given a database $D$ of moving trajectory points in a specific area, a trajectory point p in $D$ is density-connected to another trajectory point q in $D$ w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir if there is a trajectory point o such that both p and q is density-reachable from o w.r.t.  $\epsilon$, MinPts, MaxSpd and MaxDir
 \end{definition}
 
 However, if there exist multiple trajectory points ($p_1$, ..., $p_n$ ) that are density-reachable from one core trajectory point $o$, then points $p_1$, ..., $p_n$ can be all border trajectory points.  In such a cluster, one border trajectory point ($p_1$) is obviously not density-reachable from any other border points ($p_2$, ..., $p_n$). So it is necessary to define a relationship (Definition \ref{def:density_connected}) for any pairs of two border trajectory points in the same cluster.
@@ -518,7 +518,7 @@ Given a database $D$ of moving trajectory points in a specific area, a cluster C
 1) $\exists$ p $\in$ C, $\forall$ q $\in$ D, if q is density-reachable from p w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir, then q $\in$ C
 
 2) $\exists$ p $\in$ C, $\forall$ q $\in$ D, if p is density-connected to q w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir, then q $\in$ C
-\}
+
 \end{definition}
 
 
@@ -526,7 +526,6 @@ Given a database $D$ of moving trajectory points in a specific area, a cluster C
 \label{def:noise}
 (noise)
 Given a database $D$ of moving trajectory points in a specific area, and $C_1$, ..., $C_k$ are the clusters of D w.r.t. the parameters of $\epsilon$, MinPts, MaxSpd and MaxDir, i = 1, ..., k, then the noise is the set of trajectory points in the database D not belonging to any cluster $C_i$, i.e. noise = $\{$ p $\in$ D $\mid$ $\forall$ i: p $\notin$ $C_i$ $\}$
-\}
 \end{definition}
 
 
@@ -633,11 +632,11 @@ In the simple implementation presented in Algorithm \ref{algo1} the worst time c
 
 
 
-We use external knowledge based on the Traffic Separation Schemes (TSS) \cite{tss} defined by IMO to adjust the parameters of the algorithm; therefore, we are using the lanes defined in IMO publications to fit the clustering results. As we know, once the area is determined, the two parameters $MaxDir$ and $MaxSpd$ should be fixed. During this thesis work, multiple pairs of values were tested to find the optimal $MaxDir$ and $MaxSpd$. Our experiments indicate that 5$^{\circ}$ and 5 knot are the best parameters for both tested ports (Los Angeles Long Beach area and Juan De Fuca Strait area). 
+We use external knowledge based on the Traffic Separation Schemes (TSS) \cite{tss} defined by IMO to adjust the parameters of the algorithm; therefore, we are using the lanes defined in IMO publications to fit the clustering results. As we know, once the area is determined, the two parameters $MaxDir$ and $MaxSpd$ should be fixed. The two parameters are relying on the corresponding port areas. During this thesis work, multiple pairs of values were tested to find the optimal $MaxDir$ and $MaxSpd$. Our experiments indicate that 5$^{\circ}$ and 5 knot are the best parameters for both tested ports (Los Angeles Long Beach area and Juan De Fuca Strait area). 
 
 On the other hand, the parameters $eps$ and $MinPts$ must be defined for each port. Thus, another set of experiments were done to select the best pair for each area. For instance, when a lane generated by the clustering algorithm has any gaps compared to the one in the IMO TSS regulations, the analyst must increase the value of $eps$ or decrease that of $MinPts$. In this way, the lanes with lower densities might be adopted as parts of the clusters to fill in the gaps. The two parameters $eps$ and $MinPts$ selected in this procedure will be directly used in the next stopping area extraction phase.
 
-After applying DBSCANSD to the ship trajectory dataset, those geographically close trajectory points with similar direction and speed will be grouped together to form a cluster. Then, we can not only get arbitrary shapes of clusters, but we can also separate those close points with great different normal SOGs and COGs into multiple clusters. Moreover, the algorithm can even treat a ship's acceleration or deceleration as a cluster, as long as the $MaxSpd$ is well defined. Similarly, if the $MaxDir$ is defined well, a curve shape of navigation will be also treated as one cluster.
+After applying DBSCANSD to the ship trajectory dataset, those geographically close trajectory points with similar direction and speed will be grouped together to form a cluster. Then, we can not only get arbitrary shapes of clusters, but we can also separate those close points with great different normal SOGs and COGs into multiple clusters. Moreover, the algorithm can even treat a ship's acceleration or deceleration as a cluster, as long as the $MaxSpd$ is well defined. Similarly, if the $MaxDir$ is defined well, a curve shape of navigation will be also treated as one cluster. It should be noted that this point-based clutering approach can force the trajectory points of the same vessel to form multiple clusters if the vessel is not travelling along straight line or the vessel adjusts its speed significantly during navigating. But for one specifc trajectory point, it can not be shared by multiple clsuters, that is to say, it can only belong to one particular cluster.
 
 \subsection{Gravity Vector}
 \label{subsec:gv}
@@ -759,7 +758,7 @@ The feature \textbf{Median Distance} can be used to measure the width variance o
 \section{Normal Stopping Areas Extraction}
 \label{sec:normal_stopping_model}
 
-In stopping areas, such as ports and wharfs, there may be different types of ships at anchor with zero-velocity or new arriving vessels entering the area with extremely low speed. In this case, vessels can stop with their prows pointing to any directions and change their headings frequently to arrive at the anchorage berths. Therefore, direction is no longer an essential part for analyzing the risk of collision. The possibility of a low-speed vessel colliding with another ship is very low; therefore this situation was excluded from the clustering process. In other words, only when a ship sails with a higher speed than the stopping threshold in a stopping area can we label the data as outlier. So the task of this stage is to identify the locations and geographical shapes of the stopping areas from the historical data set.
+In stopping areas, such as ports and wharfs, there may be different types of ships at anchor with zero-velocity or new arriving vessels entering the area with extremely low speed. In this case, vessels can stop with their prows pointing to any directions and change their headings frequently to arrive at the anchorage berths. Therefore, direction is no longer an essential part for analyzing the risk of collision. The possibility of a low-speed vessel colliding with another ship is very low; therefore this situation was excluded from the clustering process. In other words, only when a ship sails with a higher speed than the stopping threshold in a stopping area can we label the data as outlier. So the task of this stage is to identify the locations and geographical shapes of the stopping areas from the historical data set. Once the stopping areas are identified, the case of grounding (vessels are stopping unexpectedly in an area which is far from stopping areas) is also feasible to be detected. 
 
 
 Based on the analysis of stopping regions,  the original DBSCAN \cite{DBScan96} algorithm can be employed for stopping points clustering since speed or direction is no longer essential factors. The output is a set of stopping clusters with high density of trajectory points. Intuitively, there is a relatively large number of vessels gathered in each stopping cluster, which indicates the region is a reasonable place for ships to anchor. 
@@ -1017,7 +1016,10 @@ In this chapter, experiments are done to evaluate the effectiveness of the propo
 
 \section{Normal Traffic Patterns Extraction Model}
 \label{sec:exp_1}
-In this section, we evaluate the effectiveness of our maritime normal patterns detection model in two regions. The data set contains non-anonymized messages from ships in the region of Juan de Fuca Strait and the region of Los Angeles Long Beach. The movement rules for port areas defined by IMO extracted from the IMO publication \cite{anabook} are shown in Figure \ref{fig:jdfk_pic} and \ref{fig:la_pic}. Evaluation of the normal patterns detection model is related to the problem of evaluating clusters quality and this is always not a trivial task. Our strategy is to use our approach to generate the lanes and then compare the results with these rules.
+In this section, we evaluate the effectiveness of our maritime normal patterns detection model in two regions. The data set contains non-anonymized messages from ships in the region of Juan de Fuca Strait and the region of Los Angeles Long Beach. The data set is in CSV (Comma Separated Values) format. Every row in the data set represents one particular trajectory point of a vessel and every point includes hundres of attributes (columns). But in this work, we use five attributes: MMSI, Longitude, Latitude, SOG and COG. The movement rules for port areas defined by IMO extracted from the IMO publication \cite{anabook} are shown in Figure \ref{fig:jdfk_pic} and \ref{fig:la_pic}. Evaluation of the normal patterns detection model is related to the problem of evaluating clusters quality and this is always not a trivial task. Our strategy is to use our approach to generate the lanes and then compare the results with these rules.
+
+Both experiments are conducted on a laptop of MacOS with an Intel Core i5 (1.3GHz) processor and a RAM of 4GB (1600 MHz DDR3). The implementation of the algorithm is a single-threaded, single-process Java program. 
+
 %The methodology is applied to data collected from a near port strait, JUAN DE FUCA STRAIT, the entrance of which lies between Cape Flattery (\ang{48;23;}N.,\ang{124;44;}W.) and Carmanah Point (\ang{48;37;}N.,\ang{124;45;}W.).
 
  
@@ -1032,7 +1034,7 @@ The Strait of Juan de Fuca separates the south coast of Vancouver Island from th
 \label{fig:jdfk_pic}
 \end{figure}
 
-The data set prepared for this experiment is two-months of trajectory data from November 1 to December 31 in 2012. It consists of 67,850 trajectory points. The whole dataset is not used; instead 46,000 records (40,000 moving points and 6,000 stopping points distinguished by the SOG threshold 0.5 knot) are selected randomly.
+The data set prepared for this experiment is two-months of trajectory data from November 1 to December 31 in 2012. It consists of 67,850 trajectory points. The whole dataset is not used; instead 46,000 records (40,000 moving points and 6,000 stopping points distinguished by the SOG threshold 0.5 knot) are selected randomly. As can be observed that there are much more moving points than stopping points, which is caused by the geographical environment of the area. Since this is a strait region with only one small stopping area (shown in dark green in Figure \ref{fig:jdfk_cluster}), it is more common for a vessel to approach to or exit from the port in this strait area.
 
 %below is useful for the error message: Dimension too large
 %\renewcommand\ <at> makefnbreak{\hspace{2em}}
@@ -1058,7 +1060,7 @@ After applying the two clustering algorithms, 14 different clusters including 13
 
 
 
-Figure \ref{fig:jdfk_gv} shows the gravity vectors of the moving clusters and the sampled stopping point of the stopping cluster. After this extraction phase, only 302 points are generated which include 301 GVs and only one SSP. From the two figures we can see that the clustering results can reflect the traffic trends in this strait and the GVs as well as the SSP can represent the clustering results too.
+Figure \ref{fig:jdfk_gv} shows the gravity vectors of the moving clusters and the sampled stopping point of the stopping cluster. After this extraction phase, only 302 points are generated which include 301 GVs and only one SSP. From the two figures we can see that the clustering results can reflect the traffic trends in this strait and the GVs as well as the SSP can represent the clustering results too. The total running time of this experiment is 520.7 seconds (403.8 seconds for moving points clustering and 116.9 seconds for stopping points clustering).
 
 \begin{figure}[!htb]
 \centering
@@ -1108,7 +1110,7 @@ Figure \ref{LA} shows the result of stopping clusters sampling procedure in the 
 \label{fig:la_clusters}
 \end{figure}
 
-Then the algorithm DBSCANSD is applied to moving points. Ultimately, 48,404 points are selected to form 51 moving clusters from the original 99,937 points. This result is shown in Figure \ref{fig:la_movecluster}. From the figure we can see that in the stopping area, there are multiple moving clusters too. This is because vessels in the area have to change their headings frequently to arrive at the specified anchor location and our algorithm will treat this curve-shape movement as multiple moving clusters with slight COG differences. The last step for this normal traffic pattern extraction is to calculate the Gravity Vectors of the moving clusters. The GVs of the area can be seen in Figure \ref{fig:la_clusters} and the SSPs (filled circles in dark green color) extracted in the previous step are also shown in the same figure.
+Then the algorithm DBSCANSD is applied to moving points. Ultimately, 48,404 points are selected to form 51 moving clusters from the original 99,937 points. This result is shown in Figure \ref{fig:la_movecluster}. From the figure we can see that in the stopping area, there are multiple moving clusters too. This is because vessels in the area have to change their headings frequently to arrive at the specified anchor location and our algorithm will treat this curve-shape movement as multiple moving clusters with slight COG differences. The last step for this normal traffic pattern extraction is to calculate the Gravity Vectors of the moving clusters. The GVs of the area can be seen in Figure \ref{fig:la_clusters} and the SSPs (filled circles in dark green color) extracted in the previous step are also shown in the same figure. The total running time of this experiment is 669.8 seconds (290.8 seconds for moving points clustering and 379.0 seconds for stopping points clustering).
 
 
 \section{Anomaly Detection Model}
@@ -1265,14 +1267,13 @@ After finishing the labeling process, we calculate the abnormality ratio of each
 \label{fig:anomalydetection_tra5}
 \end{figure}
 
-\begin{figure}[!hp]
+\begin{figure}[!htp]
 \centering
 %\includegraphics[height=12cm]{anomalyExamples.jpg}
 \includegraphics[width=4.1in, height=3.3in]{p6.png}
 \caption{Sixth example of the abnormal trajectories detected by our framework. GVs and SSPs are in red and the normal points are in green. The two types of abnormal points are in blue (abnormal in relation to ADD or RDD) and purple (abnormal in relation to CDD).}
 \label{fig:anomalydetection_tra6}
 \end{figure}
-
 
 
 \subsection{Experiment On Labeled Data Set}
@@ -1363,7 +1364,7 @@ From Table \ref{tb:tb3} we can see that 4 sub-tracks are classified as abnormal 
 
 To improve the result, we investigate the 14 sub-tracks designated as abnormal by the expert. Among these, we find that the 4 which are further designated as abnormal by the algorithm are so labeled solely because of their direction. After investigating other tracks, we find that
 even if the ships deviate far from the lane the expert may still label them as normal. The intuition behind this is straight-forward, as the labelling process is based on Traffic Separation Scheme (TSS) \cite{tss} boundaries and the expert cannot affirm that a trajectory point far from the TSS Boundaries is abnormal. %Instead, the factor of direction plays a more significant role and ships should navigate in the right direction while they are inside the lanes to avoid collision.
-Considering this fact, in the following experiment, we ignore the abnormal labels caused by RDD or ADD during the evaluation and we choose a lower threshold for deciding  whole sub-tracks' labels. In the previous experiment we use $60\%$ while we choose $10\%$ here. It should be noted that the threshold can be adjusted based on the input from domain experts. In real-time application, it is not necessary to have the threshold while labelling the new incoming points instead of tracks.
+Considering this fact, in the following experiment, we ignore the abnormal labels caused by RDD or ADD during the evaluation and we choose a lower threshold for deciding  whole sub-tracks' labels. In the previous experiment we use $60\%$ while we choose $10\%$ here. The reason why we use this smaller threshold is because we have much less abnormal labels. If we use $60\%$, we cannot detect any abnormal tracks. It should be noted that the threshold can be adjusted based on the input from domain experts. In real-time application, it is not necessary to have the threshold while labelling the new incoming points instead of tracks.
 
 Table \ref{tb:tb4} presents the improved results and we can see that the overall accuracy has been increased from $90.49\%$ to $95.70\%$ while keeping the same recall for abnormal cases.
 
@@ -1420,7 +1421,7 @@ In order to evaluate the effectiveness of the anomaly model, a highly imbalanced
 \section{Future Work}
 
 %% MSYD
-One of the possible directions of future work is to improve the efficiency of the presented algorithms by applying more sophisticated data structures (like spatial indexes, for example). This issue is important in the context of big sizes of the processed data. In this thesis the focus was not on optimising the efficiency of the algorithms but to present the ideas. We envisage algorithm optimisation in the future work.
+One of the possible directions of future work is to improve the efficiency of the presented algorithms by applying more sophisticated data structures (like spatial indexes, for example). This issue is important in the context of big sizes of the processed data. Moreover, there exist a number of publications to address the scalability issue of DBSCAN using MapReduce, such as \cite{mrdbscan}\cite{pdbscan}. Thus, DBSCANSD is also flexible to be implemented in parallel as it is extended from DBSCAN. One idea is to first partition the AIS data to multiple sets based on the Longitude and Latitude and then apply our clustering algorithm on each sets. If the data  is partitioned well, the time complexity can be reduced significantly which can make it feasible for a much bigger area's data clustering. In this thesis the focus was not on optimising the efficiency of the algorithms but to present the ideas. We envisage algorithm optimisation in the future work.
 %%
 
 One may argue about the use of an unsupervised learning approach instead of supervised learning methods. The reason for this is that there is  insufficient labeled data to train an effective model. Once we get enough labeled data we will explore other supervised learning techniques for this anomaly detection task. For example, we can try some classification algorithms designed for handling imbalanced data sets and the proposed specialized division distances can be used as the features of the classification models.  Then comparisons between those results and our model's outcomes could be done to illustrate the effectiveness of the proposed division distances.

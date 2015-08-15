@@ -27,9 +27,9 @@
 \addvspace {10\p@ }
 \contentsline {section}{\numberline {3.1}Representing Trajectory Data}{20}
 \addvspace {10\p@ }
-\contentsline {section}{\numberline {3.2}Normal Moving Trajectories Extraction}{20}
+\contentsline {section}{\numberline {3.2}Normal Moving Trajectories Extraction}{21}
 \contentsline {subsection}{\numberline {3.2.1}Density-Based Spatial Clustering of Applications with Noise considering Speed and Direction}{21}
-\contentsline {subsection}{\numberline {3.2.2}Gravity Vector}{27}
+\contentsline {subsection}{\numberline {3.2.2}Gravity Vector}{28}
 \contentsline {paragraph}{Proof.}{30}
 \addvspace {10\p@ }
 \contentsline {section}{\numberline {3.3}Normal Stopping Areas Extraction}{31}
@@ -43,23 +43,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {section}{\numberline {5.1}Normal Traffic Patterns Extraction Model}{43}
-\contentsline {subsection}{\numberline {5.1.1}Juan de Fuca Strait}{43}
+\contentsline {subsection}{\numberline {5.1.1}Juan de Fuca Strait}{44}
 \contentsline {subsection}{\numberline {5.1.2}Los Angeles Long Beach}{45}
 \addvspace {10\p@ }
-\contentsline {section}{\numberline {5.2}Anomaly Detection Model}{49}
-\contentsline {subsection}{\numberline {5.2.1}Experiment On Unlabeled Data Set}{50}
-\contentsline {subsection}{\numberline {5.2.2}Experiment On Labeled Data Set}{56}
+\contentsline {section}{\numberline {5.2}Anomaly Detection Model}{47}
+\contentsline {subsection}{\numberline {5.2.1}Experiment On Unlabeled Data Set}{49}
+\contentsline {subsection}{\numberline {5.2.2}Experiment On Labeled Data Set}{53}
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{59}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {section}{\numberline {6.1}Future Work}{60}
-\contentsline {chapter}{Bibliography}{63}
-\contentsline {chapter}{\numberline {Appendix A}Source Code of the Algorithms}{69}
+\contentsline {chapter}{Bibliography}{64}
+\contentsline {chapter}{\numberline {Appendix A}Source Code of the Algorithms}{70}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {section}{\numberline {A.1}Source Code of Normal Traffic Patterns Extraction Model}{69}
-\contentsline {subsection}{\numberline {A.1.1}Code of Clustering Process}{70}
-\contentsline {subsection}{\numberline {A.1.2}GVs Calculation}{74}
-\contentsline {subsection}{\numberline {A.1.3}SSPs Calculation}{79}
+\contentsline {section}{\numberline {A.1}Source Code of Normal Traffic Patterns Extraction Model}{70}
+\contentsline {subsection}{\numberline {A.1.1}Code of Clustering Process}{71}
+\contentsline {subsection}{\numberline {A.1.2}GVs Calculation}{75}
+\contentsline {subsection}{\numberline {A.1.3}SSPs Calculation}{80}
 \addvspace {10\p@ }
-\contentsline {section}{\numberline {A.2}Source Code of Anomaly Detection Model}{81}
+\contentsline {section}{\numberline {A.2}Source Code of Anomaly Detection Model}{82}
